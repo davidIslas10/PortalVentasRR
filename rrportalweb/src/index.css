@@ -1,17 +1,1395 @@
-body {
+.App {
+  background: #f2f2f2;
+  height: 1159px;
+}
+
+.container-banners {
+  background: #f2f2f2;
+}
+
+nav.navbar {
+  height: 80px;
+  padding: 0;
+}
+
+nav.navbar .container {
+  height: 80px;
+  padding: 19px 68px 19px 40px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav.navbar .container {
+  height: 80px;
+  padding: 19px 68px 19px 40px;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
-p{
-  color: inherit;
+.navbar-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.text-translate {
+  gap: 8px;
+  display: flex;
+  color: #fff;
+  font-size: 24px;
+}
+
+.text-translate a {
+  color: #fff;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 18px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+img.Banner_Home {
+  height: 805px;
+  width: 100%;
+}
+
+.banner-left {
+  position: absolute;
+  left: 40px;
+  top: 89px;
+}
+
+.banner-right {
+  position: absolute;
+  right: 201px;
+  top: 123px;
+}
+
+img {
+  width: 100%;
+  height: 570px;
+}
+
+.nav-link {
+  --bs-nav-link-color: #ffffff;
+  font-size: 23px;
+  font-family: Lato;
+}
+section.menu-service {
+  display: none;
+  border-radius: 30px;
+  width: 500px;
+  height: 270px;
+  background: #fff;
+  position: absolute;
+  box-shadow: 6px 6px 8px rgb(0 0 0 / 30%);
+  padding: 37px 12px 40px 40px;
+  position: absolute;
+  top: 61px;
+}
+
+li:hover .menu-service {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 20px;
+  flex-direction: column;
+  align-content: center;
+}
+
+.navbar .icon {
+  font-size: 43px;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background: #223e69;
+  border-radius: 5px;
+  box-shadow: 6px 6px 8px rgb(0 0 0 / 30%);
+}
+
+li:hover .menu-service {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+}
+a.nav-services.icon.icon-Correo-electrnico {
+  color: black;
+  font-size: 20px;
+  font-family: Lato;
+  text-decoration: none;
+}
+
+.navbar .icon {
+  font-size: 43px;
+  color: #fff;
+}
+
+section.menu-service .nav-service {
+  width: 50%;
+  text-decoration: none;
+  display: flex;
+  gap: 7px;
+}
+
+li.nav-service .nav-services {
+  text-decoration: none;
+}
+
+li.nav-service .nav-services {
+  text-decoration: none;
+  font-size: 100%;
+  font-family: "Lato";
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+span.iconos {
+  font-size: 30px;
+}
+
+span.iconos.icon.icon-sap-r3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+span.iconos.icon.icon-powerapps {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+span.iconos.icon.icon-software-development {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+span.iconos.icon.icon-project-managments {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+img.img-flecha {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: -14px;
+}
+
+img.logoIT {
+  height: 190px;
+}
+
+.text-negocios span {
+  font-size: 20px;
+  color: #606060;
+  font-family: "Lato";
+  position: absolute;
+  left: 4%;
+  top: 106%;
+}
+
+.font-red span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 72px;
+  color: #b50a0c;
+  position: absolute;
+  left: 45px;
+  top: 112%;
+}
+
+.font-blue1 span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #223e69;
+  position: absolute;
+  left: 4%;
+  top: 126%;
+}
+.font-blue1\.1 span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #223e69;
+  position: absolute;
+  left: 4%;
+  top: 760px;
+}
+img.img-nuve {
+  height: 414px;
+  width: 609px;
+  position: absolute;
+  right: 38px;
+  top: 745px;
+}
+
+.red {
+  position: absolute;
+  top: 800px;
+  left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.red span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900px;
+  font-size: 50px;
+  color: #ffffff;
+  z-index: 1;
+}
+
+img.img-responsive {
+  width: 410px;
+  height: 83px;
+  position: absolute;
+}
+
+.text-blue3 span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  color: #223e69;
+  font-size: 22px;
+  position: absolute;
+  top: 920px;
+  left: 48px;
+}
+
+.text-blue4 span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  color: #223e69;
+  font-size: 22px;
+  position: absolute;
+  top: 950px;
+  left: 49px;
+}
+
+.text-blue5 span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  color: #223e69;
+  font-size: 22px;
+  position: absolute;
+  top: 984px;
+  left: 49px;
+}
+
+.text-gris1 span {
+  color: #606060;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 22px;
+  position: absolute;
+  top: 1027px;
+  left: 57px;
+}
+
+.text-gris2 span {
+  color: #606060;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 22px;
+  position: absolute;
+  top: 1064px;
+  left: 57px;
+}
+
+.text-gris3 span {
+  color: #606060;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 22px;
+  position: absolute;
+  top: 1100px;
+  left: 57px;
+}
+
+img.img-check {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 1034px;
+  left: 34px;
+}
+
+img.img-check-2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 1070px;
+  left: 34px;
+}
+
+img.img-check\.3 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 1105px;
+  left: 34px;
+}
+
+img.img-rectangle1 {
+  height: 270px;
+  width: 206px;
+  border-radius: 30px;
+}
+
+img.retangle2 {
+  height: 260px;
+  width: 190px;
+  border-radius: 30px;
+}
+
+img.rectangle3 {
+  height: 260px;
+  width: 190px;
+  border-radius: 30px;
+}
+
+.rectangle-3 {
+  position: absolute;
+  right: 134px;
+  top: 731px;
+  z-index: 1;
+  border: ra;
+  border-radius: 30px;
+  box-shadow: 10px 0px 0px #223e69;
+}
+
+.rectangle-2 {
+  position: absolute;
+  right: 403px;
+  top: 838px;
+  z-index: 1;
+  border-radius: 30px;
+  box-shadow: 10px 0px 0px #223e69;
+}
+
+.rectangle-1 {
+  position: absolute;
+  right: 219px;
+  top: 880px;
+  z-index: 2;
+  border-radius: 30px;
+  box-shadow: 10px 3px 0px #223e69;
+}
+.vector1-nube {
+  position: absolute;
+  right: 30%;
+  top: 770px;
+  z-index: 1;
+}
+
+img.vector1 {
+  height: 45px;
+  width: 70px;
+}
+
+.vector2-nube {
+  position: absolute;
+  right: 5%;
+  top: 845px;
+  z-index: 1;
+}
+
+img.vector2 {
+  height: 70px;
+  width: 70px;
+}
+
+.vector3-nube {
+  position: absolute;
+  right: 9%;
+  top: 1033px;
+  z-index: 1;
+}
+
+img.vector3 {
+  height: 100px;
+  width: 93px;
+}
+
+.vector4-nube {
+  position: absolute;
+  right: 39%;
+  top: 1102px;
+  z-index: 1;
+}
+
+img.vector4 {
+  width: 60px;
+  height: 50px;
+}
+.separation {
+  position: absolute;
+  right: 27%;
+  top: 199%;
+}
+
+img.logo {
+  width: 500px;
+  height: 30px;
+}
+.service-font-red span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 72px;
+  color: #b50a0c;
+  position: absolute;
+  left: 25%;
+  top: 206%;
+}
+.service-font-red2 span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 72px;
+  color: #b50a0c;
+  position: absolute;
+  left: 33%;
+  top: 214%;
+}
+.images-services img {
+  width: 475px;
+  height: 316px;
+}
+.images-services {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 1341px;
+  left: 169px;
+  flex-wrap: wrap;
+  gap: 19px;
+}
+
+.shadow {
+  background: #223e69;
+  opacity: 0.9;
+  z-index: 2;
+  position: absolute;
+  width: 474px;
+  height: 71px;
+  top: 245px;
+}
+
+.shadow1 {
+  background: #223e69;
+  opacity: 0.8;
+  z-index: 2;
+  position: absolute;
+  width: 474px;
+  height: 71px;
+  top: 579px;
+}
+
+.shadow2 {
+  background: #223e69;
+  opacity: 0.8;
+  z-index: 2;
+  position: absolute;
+  width: 474px;
+  height: 71px;
+  top: 916px;
+}
+
+.sap span {
+  position: absolute;
+  font-size: 18px;
+  font-family: "Lato";
+  color: #fff;
+  top: 255px;
+  left: 110px;
+  z-index: 3;
+}
+
+.software span {
+  position: absolute;
+  font-size: 18px;
+  font-family: "Lato";
+  color: #fff;
+  top: 255px;
+  left: 605px;
+  z-index: 2;
+}
+
+.analytics span {
+  position: absolute;
+  font-size: 18px;
+  font-family: "Lato";
+  color: #fff;
+  top: 600px;
+  left: 110px;
+  z-index: 3;
+}
+.ux span {
+  position: absolute;
+  font-size: 18px;
+  font-family: "Lato";
+  color: #fff;
+  top: 598px;
+  left: 601px;
+  z-index: 3;
+}
+.powerapps span {
+  position: absolute;
+  font-size: 18px;
+  font-family: "Lato";
+  color: #fff;
+  top: 942px;
+  left: 90px;
+  z-index: 3;
+}
+.managment span {
+  position: absolute;
+  font-size: 18px;
+  font-family: "Lato";
+  color: #fff;
+  top: 944px;
+  left: 598px;
+  z-index: 3;
+}
+
+.banner3 {
+  position: absolute;
+  top: 2385px;
+}
+.service-blue3 {
+  position: absolute;
+  width: 604px;
+  top: 42px;
+  left: 361px;
+}
+
+.service-blue3 span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 46px;
+  color: #223e69;
+}
+
+.red1 {
+  position: absolute;
+  top: 194px;
+  left: 803px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fondo-banner3 img {
+  height: 700px;
+  width: 100%;
+}
+.img-banner3 img {
+  width: 470px;
+  height: 470px;
+  position: absolute;
+  left: 195px;
+  top: 229px;
+  transform: scaleX(-1);
+}
+
+.service-blue3 {
+  position: absolute;
+  width: 901px;
+  top: 108px;
+  left: 177px;
+  text-align: center;
+}
+.red1 {
+  position: absolute;
+  top: 402px;
+  left: 775px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.red1 img.img-responsive {
+  width: 160px;
+  height: 45px;
+  position: absolute;
+}
+.red1 span {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  font-size: 25px;
+  font-family: "lato";
+  width: 143px;
+  text-align: center;
+}
+.gris1 span {
+  color: #606060;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 900;
+  position: absolute;
+  top: 434px;
+  left: 695px;
+}
+.red2 {
+  position: absolute;
+  top: 543px;
+  left: 778px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.red2 span {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  font-size: 25px;
+  font-family: "lato";
+  width: 143px;
+  text-align: center;
+}
+
+.red2 img {
+  width: 160px;
+  height: 45px;
+  position: absolute;
+}
+.gris2 span {
+  color: #606060;
+  font-family: "Lato";
+  font-style: normal;
+  line-height: 30px;
+  font-size: 22px;
+  font-weight: 900;
+  position: absolute;
+  top: 576px;
+  right: 147px;
+  width: 419px;
+}
+.sap .shadow h3 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 42%;
+  top: 8px;
+}
+
+.sap .shadow p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 27%;
+  top: 30px;
+}
+
+.develop .shadow h3 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 28%;
+  top: 7px;
+}
+
+.develop .shadow p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 34%;
+  top: 30px;
+}
+
+.analytic .shadow h3 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 42%;
+  top: 8px;
+}
+
+.analytic .shadow p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 34%;
+  top: 20px;
+}
+
+.desing .shadow p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 40%;
+  top: 18px;
+}
+
+.apps .shadow p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 27%;
+  top: 18px;
+}
+
+.manage .shadow h3 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 42%;
+  top: 8px;
+}
+
+.manage .shadow p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato";
+  position: absolute;
+  left: 34%;
+  top: 15px;
+}
+
+/*////
+  
+  parte del hover aplicado 
+  
+  ///////*/
+.images-services {
+  width: 77%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.images-services figure {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  width: 475px;
+  height: 316px;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+.images-services figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 400ms ease-out;
+  will-change: transform;
+}
+.images-services figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #223e69c7;
+  transition: all 400ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.images-services figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.images-services figure:hover > .shadow {
+  opacity: 0;
+  visibility: none;
+}
+.images-services figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.images-services figure:hover > img {
+  transform: scale(1.3);
+}
+.images-services figure .capa h3 {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 20px;
+  margin-bottom: 120px;
+  transition: all 400ms ease-out;
+  margin-top: 30px;
+  position: absolute;
+  top: 60px;
+  left: 193px;
+}
+.images-services figure .capa p {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+  position: absolute;
+  top: 160px;
+  left: 130px;
+}
+
+blog {
+  position: absolute;
+  top: 3082px;
+}
+
+.separations {
+  position: absolute;
+  left: 416px;
+}
+
+.blog-red span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 72px;
+  color: #b50a0c;
+  position: absolute;
+  left: 600px;
+  top: 40px;
+}
+
+.logos_clientes {
+  position: absolute;
+  top: 150px;
+  left: 38px;
+}
+
+.logos_clientes img {
+  width: 1225px;
+  height: 356px;
+}
+
+.home3 {
+  position: absolute;
+  top: 539px;
+
+}
+
+.red_home3 {
+  height: 380px;
+  width: 1263px;
+  background: #B50A0C;
+}
+
+.red_home3 span {
+  font-family: "Lato";
+  font-style: normal;
+  font-family: "Lato";
+  font-size: 61px;
+  color: #ffffff;
+  z-index: 1;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  right: 450px;
+  top: 152px;
+}
+
+img.personaje {
+  width: 380px;
+  height: 460px;
+  position: absolute;
+  top: -80px;
+  right: 66px;
+  z-index: 1;
+}
+
+.red_home3 .vector_separacion {
+  height: 15px;
+  width: 275px;
+  position: absolute;
+  top: 185px;
+}
+
+.red_home3 .vector_separacion2 {
+  height: 15px;
+  width: 127px;
+  position: absolute;
+  right: 0;
+  top: 185px;
+  z-index: 0;
+}
+
+.red_home3 .button {
+  width: 280px;
+  height: 80px;
+  background: #FFF;
+  position: absolute;
+  top: 250px;
+  left: 424px;
+  border-radius: 8px;
+  box-shadow: -5px 10px 4px #17679A;
+}
+
+.home3 .button span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  color: #B50A0C;
+  position: absolute;
+  width: 189px;
+  left: 45px;
+  top: 25px;
+}
+
+
+/*versio de escritorio*/
+/* versio de escritorio */
+/*versio de escritorio*/
+
+@media (min-width: 700px) {
+  .logo-responsive {
+    display: none;
+  }
+  .translate-responsive {
+    display: none;
+  }
+  .navbar-responsive {
+    display: none;
+  }
+  .button-action {
+    display: none;
+  }
+  .banner-responsive {
+    display: none;
+  }
+  .burguer {
+    display: none;
+  }
+  .hola {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  .carrusel{
+    display: none;
+  }
+
+  .service-red-responsive{
+    display: none;
+  }
+  
+
+  header.sc-bgqQcB.kkfkJv {
+    display: none;
+  }
+  .blue1-responsive {
+    display: none;
+  }
+  .negocios-responsive {
+    display: none;
+  }
+}
+
+/*versio de mobile*/
+/* versio de mobile */
+/*versio de mobile*/
+@media (max-width: 435px) {
+  nav.navbar {
+    height: 197px;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .button-action {
+    position: absolute;
+    right: 31px;
+    top: -1px;
+    width: 63px;
+    font-size: 46px;
+    height: 32px;
+    display: flex;
+    align-items: flex-start;
+  }
+  button {
+    background-color: #ff000000;
+    border: none;
+  }
+
+  .responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .navbar-left {
+    display: none;
+  }
+  .images-services {
+    display: none;
+  }
+  .banner-left {
+    display: none;
+  }
+  .banner-right {
+    display: none;
+  }
+  .image-banner {
+    display: none;
+  }
+
+  .rectangle-1 {
+    display: none;
+  }
+  .rectangle-2 {
+    display: none;
+  }
+  .rectangle-3 {
+    display: none;
+  }
+
+  .vector1-nube {
+    display: none;
+  }
+  .vector2-nube {
+    display: none;
+  }
+
+  .vector3-nube {
+    display: none;
+  }
+
+  .vector4-nube {
+    display: none;
+  }
+  .banner-walpper {
+    display: none;
+  }
+
+  .service-font-red {
+    display: none;
+  }
+
+  .service-font-red2 {
+    display: none;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+  nav.navbar .container {
+    display: none;
+  }
+  .font-blue1 {
+    display: none;
+  }
+  .separations {
+    display: none;
+  }
+
+  .banner3 {
+    display: none;
+  }
+  .translate-responsive {
+    gap: 8px;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .translate-responsive a {
+    color: #fff;
+  }
+  .navbar-responsive {
+    display: flex;
+    gap: 14.75px;
+    height: 55px;
+  }
+  img.logo {
+    width: 100px;
+    height: 100px;
+  }
+  img {
+    background-color: #1a1a1a00;
+    width: 55px;
+  }
+
+  img.img-responsive {
+    height: 214px;
+    position: absolute;
+    top: 189px;
+    width: 100%;
+  }
+
+  .position {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 138px;
+    left: 15%;
+  }
+  .menu-mobile a {
+    display: flex;
+    gap: 51px;
+    row-gap: 26px;
+    column-gap: 15px;
+  }
+  .position a {
+    font-size: 130%;
+    text-decoration: none;
+    color: #fff;
+  }
+  img.logomobile {
+    position: absolute;
+    top: 11px;
+    height: 130px;
+    width: 50%;
+    left: 20%;
+  }
+  a.icon.icon-whatsapp {
+    position: absolute;
+    top: 370px;
+    left: 55px;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  a.icon.icon-whatsapp:before {
+    font-size: 39px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .textblue1 {
+    display: none;
+  }
+  .font-blue1\.1 {
+    display: none;
+  }
+
+  .textblue1 {
+    display: none;
+  }
+  .font-blue1\.1 {
+    display: none;
+  }
+
+  .text-negocios span {
+    font-size: 15px;
+    color: #787c80;
+    font-family: "Lato";
+    position: absolute;
+    text-align: center;
+    left: 11%;
+    right: 7%;
+    top: 425px;
+  }
+
+  .font-red span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #b50a0c;
+    position: absolute;
+    left: 18%;
+    right: 14%;
+    top: 464px;
+  }
+
+  .blue1-responsive span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .blue1-responsive span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #223e69;
+    position: absolute;
+    left: 7%;
+    top: 546px;
+  }
+
+  .red {
+    position: absolute;
+    top: 628px;
+    left: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .red span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 31px;
+    color: #ffffff;
+    z-index: 1;
+  }
+
+  .red img {
+    height: 50px;
+    width: 221px;
+    position: absolute;
+    left: -23px;
+    top: 1px;
+  }
+  .App {
+    background: #f2f2f2;
+    height: 1215px;
+}
+.banner-walpper\/responsive img {
+    height: 250px;
+    width: 260px;
+    position: absolute;
+    right: 30px;
+    top: 700px;
+}
+
+.text-blue3 span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    color: #223e69;
+    font-size: 16px;
+    position: absolute;
+    top: 965px;
+    left: 22px;
+}
+
+.text-blue4 span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    color: #223e69;
+    font-size: 16px;
+    position: absolute;
+    top: 989px;
+    left: 143px;
+}
+.text-blue5 span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    color: #223e69;
+    font-size: 16px;
+    position: absolute;
+    top: 1027px;
+    left: 21px;
+    right: 24px;
+}
+img.img-check {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1133px;
+    left: 23px;
+}
+
+img.img-check-2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1100px;
+    left: 23px;
+}
+
+img.img-check\.3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1168px;
+    left: 23px;
+}
+.text-gris1 span {
+    color: #606060;
+    font-family: "Lato";
+    font-style: normal;
+    font-size: 15px;
+    position: absolute;
+    top: 1099px;
+    left: 52px;
+    font-weight: 550;
+}
+
+.text-gris2 span {
+    color: #606060;
+    font-family: "Lato";
+    font-style: normal;
+    font-size: 15px;
+    position: absolute;
+    top: 1133px;
+    left: 52px;
+    font-weight: 550;
+}
+.text-gris3 span {
+    color: #606060;
+    font-family: "Lato";
+    font-style: normal;
+    font-size: 15px;
+    position: absolute;
+    top: 1167px;
+    left: 51px;
+    font-weight: 550;
+}
+
+.separation {
+    position: absolute;
+    right: 21%;
+    top: 245%;
+}
+
+.separation img {
+    width: 180px;
+    height: 16px;
+}
+
+ 
 }

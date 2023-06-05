@@ -1,0 +1,39 @@
+{
+    "banner": {
+        "navbar.home": "Home",
+        "navbar.service": "Service",
+        "navbar.service-sap": "Resources",
+        "navbar.service-powerapps": "Development",
+        "navbar.service-uxui": "Design UI/UX",
+        "navbar.service-analitic": "Data & Analytics",
+        "navbar.service-software_develop": "Software Development",
+        "navbar.service-Web_Mobile": "(Web&Mobile)",
+        "navbar.service_project_managments": "Project Managments",
+        "navbar.about": "About",
+        "navbar.careers": "Careers",
+        "navbar.contact": "Contact",
+        "home.edit": "Edit ",
+        "home.negocios": "INTEGRAL BUSINESSES S.A DE C.V",
+        "home.wekeep": "We keep great ideas alive",
+        "home.wesupply": "We supply the most responsive and functional IT design for",
+        "home.businesses": "businesses and businesses worldwide.",
+        "home.weare": "Who we are?",
+        "home.r&r": "R&R IT Consulting is an IT consultancy based in Mexico",
+        "home.founded": "founded in 2010.",
+        "home.enjoy": "We enjoy working with our customers as sales partners",
+        "home.resolve": "Resolve complex problems",
+        "home.reliable": "Your service is reliable",
+        "home.experts": "Experts in the areas of technology"
+    },
+    "service": {
+
+        "provide": "We provide all kinds of IT services",
+        "success": "to ensure your success",
+        "modalities": "  We are where your business needs it, we have different work modalities that adapt to your needs",
+        "shore": "low cost",
+        "located": "The entire team is located remotely, low cost",
+        "mid": "average cost",
+        "middle": "A team with the client, who attends to the needs and communicates to the team in person and remotely, Middle cost"
+
+    }
+}
