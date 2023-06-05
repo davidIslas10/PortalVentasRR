@@ -1,0 +1,40 @@
+{
+    "banner": {
+        "navbar.home": "Inicio",
+        "navbar.service": "Servicios",
+        "navbar.service-sap":"recursos",
+        "navbar.service-powerapps":"Desarollo",
+        "navbar.service-uxui":"Desarrollo UI/UX",
+        "navbar.service-analitic":"Datos & Análisis",
+        "navbar.service-software_develop":"Desarrollo de Software",
+        "navbar.service-Web_Mobile":"(Web&Mobil)",
+        "navbar.service_project_managments":"Gestión de Proyectos",
+        "navbar.about": "Acerca de",
+        "navbar.careers": "Asesoría",
+        "navbar.contact": "Contacto",
+        "home.edit": "Edit ",
+        "home.negocios": "NEGOCIOS INTEGRALES S.A DE C.V",
+        "home.wekeep": "Mantenemos vivas las grandes ideas",
+        "home.wesupply": "Suministramos el diseño de TI más receptivo y funcional para",
+        "home.businesses": "empresas y negocios en todo el mundo.",
+        "home.weare": "Quienes somos?",
+        "home.r&r": "R&R IT Consulting es una consultora de TI con sede en México",
+        "home.founded": "fundada en 2010.",
+        "home.enjoy": "Disfrutamos trabajar con nuestros clientes",
+        "home.resolve": "Resolver problemas complejos",
+        "home.reliable": "Su servicio es confiable",
+        "home.experts": "Expertos en las áreas de tecnología"
+    },
+    "service": {
+        
+        "provide": "Brindamos todo tipo de servicios de TI ",
+        "success": "para asegurar tu éxito",
+        "modalities": "Estamos donde tu negocio lo necesita, contamos con diferentes modalidades de trabajo que se adaptan a tus necesidades",
+        "shore": "Bajo costo",
+        "located": "Todo el equipo está ubicado en forma remota, a bajo costo",
+        "mid": "Costo Medio",
+        "middle": "A team with the client, who attends to the needs and communicates to the team in person and remotely, Middle cost"
+
+        
+    }
+}

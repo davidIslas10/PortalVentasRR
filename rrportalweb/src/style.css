@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?lywi57') format('truetype'),
+    url('fonts/icomoon.woff?lywi57') format('woff'),
+    url('fonts/icomoon.svg?lywi57#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-data-analytics:before {
+  content: "\e902";
+}
+.icon-correo-electronico:before {
+  content: "\e900";
+}
+.icon-flecha-1:before {
+  content: "\e901";
+}
+.icon-powerapps:before {
+  content: "\e915";
+}
+.icon-project-managments:before {
+  content: "\e91b";
+}
+.icon-sap-r3:before {
+  content: "\e933";
+}
+.icon-software-development:before {
+  content: "\e947";
+}
+.icon-Icono-ux:before {
+  content: "\e955";
+}
+.icon-instagram:before {
+  content: "\e95d";
+}
+.icon-linkedin:before {
+  content: "\e95e";
+}
+.icon-telefono:before {
+  content: "\e95f";
+}
+.icon-whatsapp:before {
+  content: "\e960";
+}
