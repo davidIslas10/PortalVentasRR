@@ -130,7 +130,7 @@ const Banner = () => {
         </div>
         <div className="red">
           <span>{t("banner.home.weare")}</span>
-          <img class="img-responsive" src={barra} />
+        
         </div>
         <div className="text-blue3">
           <span>{t("banner.home.r&r")}</span>
@@ -161,6 +161,10 @@ const Banner = () => {
           <img class="img-check.3" src={check} />
         </div>
 
+        <div className="nuve-rectangle">
+
+        
+        
         <div className="rectangle-1">
           <img class="img-rectangle1" src={rectangle1} />
         </div>
@@ -172,6 +176,10 @@ const Banner = () => {
           <img class="rectangle3" src={rectangle3} />
         </div>
 
+
+
+
+        </div>
         <div className="vector1-nube">
           <img class="vector1" src={vector1} />
         </div>

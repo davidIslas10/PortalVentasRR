@@ -34,6 +34,9 @@
         "located": "The entire team is located remotely, low cost",
         "mid": "average cost",
         "middle": "A team with the client, who attends to the needs and communicates to the team in person and remotely, Middle cost"
-
+    },
+    "Blog":{
+        "great": "Do a great project with us",
+        "together": "Let´s work together!"
     }
 }
