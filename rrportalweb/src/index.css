@@ -44,6 +44,7 @@ nav.navbar .container {
   display: flex;
   color: #fff;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .text-translate a {
@@ -81,10 +82,7 @@ img.Banner_Home {
   top: 123px;
 }
 
-img {
-  width: 100%;
-  height: 570px;
-}
+
 
 .nav-link {
   --bs-nav-link-color: #ffffff;
@@ -205,20 +203,20 @@ img.logoIT {
   color: #606060;
   font-family: "Lato";
   position: absolute;
+  font-weight: 900;
+  top: 640px;
   left: 4%;
-  top: 106%;
+  right: 56.85%;
 }
 
 .font-red span {
   font-family: "Lato";
   font-style: normal;
-  font-weight: 900;
-  font-size: 50px;
+  font-weight: 1000;
+  font-size: 40px;
   line-height: 72px;
   color: #b50a0c;
   position: absolute;
-  left: 45px;
-  top: 112%;
 }
 
 .font-blue1 span {
@@ -229,8 +227,9 @@ img.logoIT {
   line-height: 30px;
   color: #223e69;
   position: absolute;
+  top: 750px;
   left: 4%;
-  top: 126%;
+  right: 31%;
 }
 .font-blue1\.1 span {
   font-family: "Lato";
@@ -241,32 +240,34 @@ img.logoIT {
   color: #223e69;
   position: absolute;
   left: 4%;
-  top: 760px;
+  top: 780px;
 }
 img.img-nuve {
   height: 414px;
-  width: 609px;
+  width: 600px;
   position: absolute;
-  right: 38px;
+  right: 15px;
   top: 745px;
 }
 
 .red {
   position: absolute;
-  top: 800px;
-  left: 80px;
+  top: 833px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  left: 4%;
+  background: #B50A0C;
+  border-top-left-radius: 23px;
+  border-end-end-radius: 23px;
+  width: 355px;
 }
 
 .red span {
   font-family: "Lato";
   font-style: normal;
-  font-weight: 900px;
-  font-size: 50px;
+  font-size: 45px;
   color: #ffffff;
-  z-index: 1;
 }
 
 img.img-responsive {
@@ -277,13 +278,13 @@ img.img-responsive {
 
 .text-blue3 span {
   font-family: "Lato";
-  font-style: normal;
-  font-weight: 900;
-  color: #223e69;
-  font-size: 22px;
-  position: absolute;
-  top: 920px;
-  left: 48px;
+    font-style: normal;
+    font-weight: 900;
+    color: #223e69;
+    font-size: 22px;
+    position: absolute;
+    top: 932px;
+    left: 4%;
 }
 
 .text-blue4 span {
@@ -293,8 +294,8 @@ img.img-responsive {
   color: #223e69;
   font-size: 22px;
   position: absolute;
-  top: 950px;
-  left: 49px;
+  top: 963px;
+  left: 4%;
 }
 
 .text-blue5 span {
@@ -304,8 +305,8 @@ img.img-responsive {
   color: #223e69;
   font-size: 22px;
   position: absolute;
-  top: 984px;
-  left: 49px;
+  top: 1005px;
+  left: 4%;
 }
 
 .text-gris1 span {
@@ -314,8 +315,8 @@ img.img-responsive {
   font-style: normal;
   font-size: 22px;
   position: absolute;
-  top: 1027px;
-  left: 57px;
+  top: 1049px;
+  left: 80px;
 }
 
 .text-gris2 span {
@@ -324,8 +325,8 @@ img.img-responsive {
   font-style: normal;
   font-size: 22px;
   position: absolute;
-  top: 1064px;
-  left: 57px;
+  top: 1085px;
+  left: 80px;
 }
 
 .text-gris3 span {
@@ -334,32 +335,35 @@ img.img-responsive {
   font-style: normal;
   font-size: 22px;
   position: absolute;
-  top: 1100px;
-  left: 57px;
+  top: 1120px;
+  left: 80px;
 }
 
 img.img-check {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 1034px;
-  left: 34px;
+  top: 1056px;
+  left: 50px;
 }
 
 img.img-check-2 {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 1070px;
-  left: 34px;
+  top: 1092px;
+  left: 50px;
 }
-
+.image-banner img {
+  height: 615px;
+  width: 100%;
+}
 img.img-check\.3 {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 1105px;
-  left: 34px;
+  top: 1127px;
+  left: 50px;
 }
 
 img.img-rectangle1 {
@@ -382,7 +386,7 @@ img.rectangle3 {
 
 .rectangle-3 {
   position: absolute;
-  right: 134px;
+  right: 90px;
   top: 731px;
   z-index: 1;
   border: ra;
@@ -392,7 +396,7 @@ img.rectangle3 {
 
 .rectangle-2 {
   position: absolute;
-  right: 403px;
+  right: 384px;
   top: 838px;
   z-index: 1;
   border-radius: 30px;
@@ -401,8 +405,8 @@ img.rectangle3 {
 
 .rectangle-1 {
   position: absolute;
-  right: 219px;
-  top: 880px;
+  right: 200px;
+  top: 885px;
   z-index: 2;
   border-radius: 30px;
   box-shadow: 10px 3px 0px #223e69;
@@ -464,6 +468,13 @@ img.logo {
   width: 500px;
   height: 30px;
 }
+.font-red {
+  position: absolute;
+  left: 4%;
+  right: 35.74%;
+  top: 676px;
+ 
+}
 .service-font-red span {
   font-family: "Lato";
   font-style: normal;
@@ -473,7 +484,7 @@ img.logo {
   color: #b50a0c;
   position: absolute;
   left: 25%;
-  top: 206%;
+  top: 1190px;
 }
 .service-font-red2 span {
   font-family: "Lato";
@@ -484,7 +495,7 @@ img.logo {
   color: #b50a0c;
   position: absolute;
   left: 33%;
-  top: 214%;
+  top: 1235px;;
 }
 .images-services img {
   width: 475px;
@@ -590,12 +601,13 @@ img.logo {
 .banner3 {
   position: absolute;
   top: 2385px;
+  width: 100%;
 }
 .service-blue3 {
   position: absolute;
-  width: 604px;
-  top: 42px;
-  left: 361px;
+  width: 901px;
+  top: 108px;
+  left: 18%;
 }
 
 .service-blue3 span {
@@ -603,7 +615,7 @@ img.logo {
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
-  line-height: 46px;
+  line-height: 47px;
   color: #223e69;
 }
 
@@ -696,13 +708,11 @@ img.logo {
   color: #606060;
   font-family: "Lato";
   font-style: normal;
-  line-height: 30px;
   font-size: 22px;
   font-weight: 900;
   position: absolute;
-  top: 576px;
-  right: 147px;
-  width: 419px;
+  top: 574px;
+  left: 695px;
 }
 .sap .shadow h3 {
   color: #fff;
@@ -794,11 +804,6 @@ img.logo {
   top: 15px;
 }
 
-/*////
-  
-  parte del hover aplicado 
-  
-  ///////*/
 .images-services {
   width: 77%;
   display: flex;
@@ -873,9 +878,11 @@ img.logo {
   left: 130px;
 }
 
+
 blog {
   position: absolute;
   top: 3082px;
+  width: 100%;
 }
 
 .separations {
@@ -897,24 +904,36 @@ blog {
 
 .logos_clientes {
   position: absolute;
-  top: 150px;
-  left: 38px;
+  top: 112px;
+  left: 138px;
+  right: 161px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 17px;
+  column-gap: 85px;
+  cursor: pointer;
+}
+.logos_clientes img {
+  height: 115px;
+  width: 180px;
 }
 
-.logos_clientes img {
-  width: 1225px;
-  height: 356px;
+img.teva {
+  height: 90px;
 }
+
 
 .home3 {
   position: absolute;
-  top: 539px;
-
+  top: 602px;
+  width: 100%;
 }
 
 .red_home3 {
-  height: 380px;
-  width: 1263px;
+  height: 351px;
+  width: 100%;
   background: #B50A0C;
 }
 
@@ -928,33 +947,32 @@ blog {
   font-size: 45px;
   color: #ffffff;
   position: absolute;
-  right: 450px;
-  top: 152px;
+  right: 437px;
+  top: 122px;
 }
 
 img.personaje {
-  width: 380px;
-  height: 460px;
+  height: 470px;
   position: absolute;
-  top: -80px;
-  right: 66px;
+  top: -119px;
+  right: 106px;
   z-index: 1;
 }
 
 .red_home3 .vector_separacion {
-  height: 15px;
-  width: 275px;
+  height: 10px;
+  width: 132px;
   position: absolute;
-  top: 185px;
+  top: 155px;
 }
 
 .red_home3 .vector_separacion2 {
-  height: 15px;
-  width: 127px;
-  position: absolute;
-  right: 0;
-  top: 185px;
-  z-index: 0;
+  height: 10px;
+    width: 154px;
+    position: absolute;
+    right: 0;
+    top: 155px;
+    z-index: 0;
 }
 
 .red_home3 .button {
@@ -966,20 +984,55 @@ img.personaje {
   left: 424px;
   border-radius: 8px;
   box-shadow: -5px 10px 4px #17679A;
+  cursor: pointer;
 }
 
 .home3 .button span {
   font-family: "Lato";
   font-style: normal;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 22px;
   color: #B50A0C;
-  position: absolute;
-  width: 189px;
-  left: 45px;
-  top: 25px;
+  width: 264px;
+  left: 7px;
+  line-height: 22px;
+  text-align: center;
+  top: 27px;
 }
 
+
+.fotter-blue {
+  width: 100%;
+  height: 140px;
+  background: #243E69;
+}
+
+.fotter-blue img {
+  position: absolute;
+  top: 395px;
+  left: 26px;
+  height: 58px;
+}
+
+.footer-right {
+  position: absolute;
+  top: 399px;
+  right: 38px;
+  font-size: 50px;
+  gap: 14px;
+  display: flex;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.carrusel-blog img {
+  position: absolute;
+  top: 544px;
+  left: 647px;
+}
 
 /*versio de escritorio*/
 /* versio de escritorio */

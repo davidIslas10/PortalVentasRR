@@ -5,7 +5,6 @@ import Logo from "../images/Logo.png";
 import { HeaderWrapper } from "./Header";
 import Navresp from "./navresp";
 import MenuButton from "./MenuButton";
-import { I18nContext } from "react-i18next";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {

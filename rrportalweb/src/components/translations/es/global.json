@@ -33,8 +33,10 @@
         "shore": "Bajo costo",
         "located": "Todo el equipo está ubicado en forma remota, a bajo costo",
         "mid": "Costo Medio",
-        "middle": "A team with the client, who attends to the needs and communicates to the team in person and remotely, Middle cost"
-
-        
+        "middle": "Un equipo con el cliente, que atiende las necesidades y se comunica con el equipo de forma presencial y remota, Coste medio"
+    },
+    "Blog":{
+        "great": "Haz un gran proyecto con nosotros",
+        "together": "¡Vamos a trabajar juntos!"
     }
 }
