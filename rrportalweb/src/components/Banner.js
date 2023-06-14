@@ -3,16 +3,9 @@ import LogoIT from "../images/Logo.png";
 import imageBanner from "../images/Banner Home.png";
 import flechas from "../images/flecha-service.png";
 import nuve from "../images/nuve_gris.png";
-import BannerResponsive from "../images/MOBILE/BANNER HOME MOBILE.png";
+import BannerResponsive from "../images/Banner Home.png";
 import check from "../images/check.png";
-import rectangle1 from "../images/Rectangle1.png";
-import rectangle2 from "../images/Rectangle2.png";
-import rectangle3 from "../images/Rectangle3.png";
-import vector1 from "../images/vector1.png";
-import vector2 from "../images/vector2.png";
-import vector3 from "../images/vector3.png";
-import vector4 from "../images/vector4.png";
-import barra from "../images/barra.png";
+import Nube from "../images/Imagen Home1.png";
 import nuveRes from "../images/Imagen Home1.png";
 import { useTranslation } from "react-i18next";
 import "../style.css";
@@ -111,106 +104,124 @@ const Banner = () => {
           <img src={imageBanner} />
         </span>
       </div>
-      <div className="banner-responsive">
-        <img class="img-responsive" src={BannerResponsive} />
+
+      <div className="banner-separation">
+        <div className="negocios-integrales">
+          <div className="text-negocios">
+            <span>{t("banner.home.negocios")}</span>
+          </div>
+          <div className="font-red">
+            <span>{t("banner.home.wekeep")}</span>
+          </div>
+          <div className="font-blue1">
+            <span>{t("banner.home.wesupply")}</span>
+          </div>
+          <div className="font-blue1.1">
+            <span>{t("banner.home.businesses")}</span>
+          </div>
+          <div className="red">
+            <span>{t("banner.home.weare")}</span>
+          </div>
+          <div className="text-blue3">
+            <span>{t("banner.home.r&r")}</span>
+          </div>
+          <div className="text-blue4">
+            <span>{t("banner.home.founded")}</span>
+          </div>
+          <div className="text-blue5">
+            <span>{t("banner.home.enjoy")}</span>
+          </div>
+          <div className="text-gris1">
+            <img class="img-check" src={check} />
+            <span>{t("banner.home.resolve")}</span>
+          </div>
+          <div className="text-gris2">
+            <img class="img-check-2" src={check} />
+            <span>{t("banner.home.reliable")}</span>
+          </div>
+          <div className="text-gris3">
+            <img class="img-check.3" src={check} />
+            <span>{t("banner.home.experts")}</span>
+          </div>
+        </div>
+
+        <div className="Nube">
+          <img src={Nube} class="nube" />
+        </div>
       </div>
 
-      <div className="negocios-integrales">
+      {/* 
+
+      !!!!!!!!Esta es la version Mobile!!!!!!!!!!
+      !!!!!!!!Esta es la version Mobile!!!!!!!!!!
+      !!!!!!!!Esta es la version Mobile!!!!!!!!!!
+      !!!!!!!!Esta es la version Mobile!!!!!!!!!!
+      !!!!!!!!Esta es la version Mobile!!!!!!!!!!
+      !!!!!!!!Esta es la version Mobile!!!!!!!!!!
+      
+      */}
+
+      <div className="negocios-responsive">
+        <div className="banner-responsive">
+          <img class="img-responsive" src={BannerResponsive} />
+        </div>
+
         <div className="text-negocios">
           <span>{t("banner.home.negocios")}</span>
         </div>
         <div className="font-red">
           <span>{t("banner.home.wekeep")}</span>
         </div>
-        <div className="font-blue1">
-          <span>{t("banner.home.wesupply")}</span>
+
+        <div className="blue1-center">
+          <div className="font-blue1">
+            <span>
+              We supply the most responsive and functional IT design for
+              businesses and businesses worldwide
+            </span>
+          </div>
         </div>
-        <div className="font-blue1.1">
-          <span>{t("banner.home.businesses")}</span>
+
+        <div className="red-center">
+          <div className="red">
+            <span>{t("banner.home.weare")}</span>
+          </div>
         </div>
-        <div className="red">
-          <span>{t("banner.home.weare")}</span>
-        
+
+        <div className="banner-walpper/responsive">
+          <img class="img-nuve" src={nuveRes} />
         </div>
-        <div className="text-blue3">
-          <span>{t("banner.home.r&r")}</span>
-        </div>
+
         <div className="text-blue4">
-          <span>{t("banner.home.founded")}</span>
+          <span>
+            R&R IT Consuling is an IT consultancy based in Mexico founded in
+            2010.
+          </span>
         </div>
+
         <div className="text-blue5">
           <span>{t("banner.home.enjoy")}</span>
         </div>
-        <div className="text-gris1">
-          <span>{t("banner.home.resolve")}</span>
-        </div>
-        <div className="text-gris2">
-          <span>{t("banner.home.reliable")}</span>
-        </div>
-        <div className="text-gris3">
-          <span>{t("banner.home.experts")}</span>
-        </div>
-        <div className="check">
-          <img class="img-check" src={check} />
-        </div>
-        <div className="check-2">
-          <img class="img-check-2" src={check} />
-        </div>
 
-        <div className="check-3">
-          <img class="img-check.3" src={check} />
-        </div>
-
-        <div className="nuve-rectangle">
-
-        
-        
-        <div className="rectangle-1">
-          <img class="img-rectangle1" src={rectangle1} />
-        </div>
-        <div className="rectangle-2">
-          <img class="retangle2" src={rectangle2} />
-        </div>
-
-        <div className="rectangle-3">
-          <img class="rectangle3" src={rectangle3} />
-        </div>
-
-
-
-
-        </div>
-        <div className="vector1-nube">
-          <img class="vector1" src={vector1} />
-        </div>
-        <div className="vector2-nube">
-          <img class="vector2" src={vector2} />
-        </div>
-        <div className="vector3-nube">
-          <img class="vector3" src={vector3} />
-        </div>
-        <div className="vector4-nube">
-          <img class="vector4" src={vector4} />
-        </div>
-
-        <div className="banner-walpper">
-          <img class="img-nuve" src={nuve} />
-        </div>
-      </div>
-
-      <div className="negocios-responsive">
-        <div className="blue1-responsive">
-          <span>
-            We supply the most responsive and functional IT design for
-            businesses and businesses worldwide
-          </span>
-          <div className="banner-walpper/responsive">
-            <img class="img-nuve" src={nuveRes} />
+        <div className="text-check">
+          <div className="text-gris1">
+            <img class="img-check" src={check} />
+            <span>{t("banner.home.resolve")}</span>
+          </div>
+          <div className="text-gris2">
+            <img class="img-check-2" src={check} />
+            <span>{t("banner.home.reliable")}</span>
+          </div>
+          <div className="text-gris3">
+            <img class="img-check.3" src={check} />
+            <span>{t("banner.home.experts")}</span>
           </div>
         </div>
       </div>
+
+      {/*VERSION MOBILE*/}
     </div>
   );
-}
+};
 
 export default Banner;
