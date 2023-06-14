@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../style.css";
 import "../index.css";
 import Logo from "../images/Logo.png";
+import LogoMobile from "../images/R&R Fondo Blanco.svg";
 import { HeaderWrapper } from "./Header";
 import Navresp from "./navresp";
 import MenuButton from "./MenuButton";
@@ -38,7 +39,7 @@ const Navbar = () => {
 
         <div class="responsive">
           <div class="logo-responsive">
-            <img src={Logo} class="logo" />
+            <img src={LogoMobile} class="logo" />
           </div>
 
           <div class="translate-responsive">

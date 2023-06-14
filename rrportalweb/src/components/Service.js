@@ -10,10 +10,10 @@ import Managment from "../images/Project Managment.png";
 import banner3 from "../images/Imagen Home 2.png";
 import nubBanner3 from "../images/Nube-Gris.png";
 import barra from "../images/barra.png";
+import Carousel from "react-bootstrap/Carousel";
 import { useTranslation } from "react-i18next";
 
 const Service = () => {
-
   const [t, i18n] = useTranslation("global");
   return (
     <div className="services">
@@ -21,20 +21,70 @@ const Service = () => {
         <img src={separation} class="logo" />
       </div>
       <div className="service-font-red">
-        <span>{t("service.provide")}</span>
+        <span>
+          {t("service.provide")}
+          <br></br>
+          {t("service.success")}
+        </span>
       </div>
-      <div className="service-font-red2">
-      <span>{t("service.success")}</span>
+      <div className="service-font-red-mobile">
+        <span>
+          {t("service.provide")}
+          {t("service.success")}
+        </span>
       </div>
 
-      <div className="service-red-responsive">
-        <span>We provide all kinds of IT services to ensure your success</span>
-      </div>
+      <Carousel variant="dark">
+        <Carousel.Item>
+          <img className="d-block" src={Sap} alt="First slide" />
+          <div className="shadow">
+            <a>SAP R3/</a>
+            <a>Hana & ABAP resources</a>
+          </div>
+          <br></br>
+          <img className="d-block" src={Software} alt="First slide" />
+          <div className="shadow">
+            <h3>Software Development</h3>
+            <p>(Web & Mobile)</p>
+          </div>
+          <Carousel.Caption>
+        
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block" src={Analytics} alt="First slide" />
+          <div className="shadow">
+            <p>Data & Analytics</p>
+          </div>
+          <br></br>
+          <img className="d-block" src={uxDesign} alt="First slide" />
+          <div className="shadow">
+            <p>UX/UI Design</p>
+          </div>
+          <Carousel.Caption>
+           
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block" src={PowerApps} alt="First slide" />
+          <div className="shadow">
+            <p>PowerApps Development </p>
+          </div>
+          <br></br>
+          <img className="d-block" src={Managment} alt="First slide" />
+          <div className="shadow">
+            <p>Project Managment</p>
+          </div>
+          <Carousel.Caption>
+       
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
 
       <div className="images-services">
         <div className="sap">
           <figure>
-            <img src={Sap}/>
+            <img src={Sap} />
             <div className="shadow">
               <h3>SAP R3/</h3>
               <p>Hana & ABAP resources</p>
@@ -106,33 +156,30 @@ const Service = () => {
       </div>
 
       <div className="banner3">
+        <div className="fondo-banner3">
+          <img src={nubBanner3} class="logoManagment" />
+        </div>
         <div className="service-blue3">
-        <span>{t("service.modalities")}</span>
+          <span>{t("service.modalities")}</span>
         </div>
         <div className="img-banner3">
           <img src={banner3} class="logoManagment" />
         </div>
-        <div className="fondo-banner3">
-          <img src={nubBanner3} class="logoManagment" />
-        </div>
         <div className="red1">
-        <span>{t("service.shore")}</span>
+          <span>{t("service.shore")}</span>
           <img class="img-responsive" src={barra} />
         </div>
         <div className="gris1">
-        <span>{t("service.located")}</span>
+          <span>{t("service.located")}</span>
         </div>
         <div className="red2">
-        <span>{t("service.mid")}</span>
+          <span>{t("service.mid")}</span>
           <img class="img-responsive" src={barra} />
         </div>
         <div className="gris2">
-        <span>{t("service.middle")}</span>
+          <span>{t("service.middle")}</span>
         </div>
       </div>
-     
-     
-      
     </div>
   );
 };
