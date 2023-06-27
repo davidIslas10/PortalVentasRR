@@ -1,7 +1,3 @@
-.App {
-  background: #f2f2f2;
-  height: 1159px;
-}
 
 .container-banners {
   background: #f2f2f2;
@@ -65,6 +61,7 @@ nav.navbar .container {
   padding: 0;
   margin: 0;
 }
+
 img.Banner_Home {
   height: 805px;
   width: 100%;
@@ -87,6 +84,7 @@ img.Banner_Home {
   font-size: 23px;
   font-family: Lato;
 }
+
 section.menu-service {
   display: none;
   border-radius: 30px;
@@ -127,6 +125,7 @@ li:hover .menu-service {
   display: flex;
   flex-wrap: wrap;
 }
+
 a.nav-services.icon.icon-Correo-electrnico {
   color: black;
   font-size: 20px;
@@ -158,6 +157,7 @@ li.nav-service .nav-services {
   display: flex;
   align-items: center;
 }
+
 span.iconos {
   font-size: 30px;
 }
@@ -185,6 +185,7 @@ span.iconos.icon.icon-project-managments {
   justify-content: space-evenly;
   align-items: center;
 }
+
 img.img-flecha {
   height: 15px;
   width: 15px;
@@ -198,7 +199,8 @@ img.logoIT {
 
 .negocios-integrales {
   margin-block-start: -2%;
-  padding: 0 0 38px 6%;
+  padding: 0 0 38px 47px;
+
 }
 
 .text-negocios span {
@@ -229,6 +231,7 @@ img.logoIT {
   line-height: 30px;
   color: #223e69;
 }
+
 .font-blue1\.1 span {
   font-family: "Lato";
   font-style: normal;
@@ -237,6 +240,7 @@ img.logoIT {
   line-height: 30px;
   color: #223e69;
 }
+
 img.img-nuve {
   height: 414px;
   width: 600px;
@@ -369,9 +373,11 @@ img.logo {
   width: 500px;
   height: 30px;
 }
+
 .font-red {
   padding: 9px 0;
 }
+
 .service-font-red {
   display: flex;
   justify-content: center;
@@ -392,6 +398,7 @@ img.logo {
   width: 475px;
   height: 316px;
 }
+
 .images-services {
   width: 100%;
   display: flex;
@@ -461,6 +468,7 @@ img.logo {
   left: 110px;
   z-index: 3;
 }
+
 .ux span {
   position: absolute;
   font-size: 18px;
@@ -470,6 +478,7 @@ img.logo {
   left: 601px;
   z-index: 3;
 }
+
 .powerapps span {
   position: absolute;
   font-size: 18px;
@@ -479,6 +488,7 @@ img.logo {
   left: 90px;
   z-index: 3;
 }
+
 .managment span {
   position: absolute;
   font-size: 18px;
@@ -493,6 +503,7 @@ img.logo {
   width: 100%;
   height: 696px;
 }
+
 .service-blue3 {
   margin-block-start: -555px;
   text-align: center;
@@ -536,6 +547,7 @@ img.logo {
   width: 160px;
   height: 45px;
 }
+
 .red1 span {
   color: #fff;
   z-index: 1;
@@ -545,6 +557,7 @@ img.logo {
   text-align: center;
   position: absolute;
 }
+
 .gris1 {
   padding: 15px 0 10px 55%;
 }
@@ -556,6 +569,7 @@ img.logo {
   font-size: 22px;
   font-weight: 900;
 }
+
 .red2 {
   display: flex;
   align-items: center;
@@ -589,6 +603,7 @@ img.logo {
   font-size: 22px;
   font-weight: 900;
 }
+
 .sap .shadow h3 {
   color: #fff;
   font-size: 20px;
@@ -688,12 +703,14 @@ img.logo {
   border-radius: 6px;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
 }
+
 .images-services figure img {
   width: 100%;
   height: 100%;
   transition: all 400ms ease-out;
   will-change: transform;
 }
+
 .images-services figure .capa {
   position: absolute;
   top: 0;
@@ -705,6 +722,7 @@ img.logo {
   visibility: hidden;
   text-align: center;
 }
+
 .images-services figure:hover > .capa {
   opacity: 1;
   visibility: visible;
@@ -714,13 +732,16 @@ img.logo {
   opacity: 0;
   visibility: none;
 }
+
 .images-services figure:hover > .capa h3 {
   margin-top: 70px;
   margin-bottom: 15px;
 }
+
 .images-services figure:hover > img {
   transform: scale(1.3);
 }
+
 .images-services figure .capa h3 {
   color: #fff;
   font-family: "Lato";
@@ -732,6 +753,7 @@ img.logo {
   top: 60px;
   left: 193px;
 }
+
 .images-services figure .capa p {
   color: #fff;
   font-family: "Lato";
@@ -754,6 +776,7 @@ img.logo {
   display: flex;
   justify-content: center;
 }
+
 .blog-red span {
   font-family: "Lato";
   font-style: normal;
@@ -774,6 +797,7 @@ img.logo {
   padding: 30px 10%;
   justify-content: space-between;
 }
+
 .logos_clientes img {
   min-height: 113px;
   width: 15%;
@@ -899,11 +923,303 @@ li.nav-item a {
 }
 
 .justify-content-center.navbar-nav a {
-  font-size: 15px;
+  font-size: 22px;
 }
+
 .service-font-red-mobile {
   display: none;
 }
+
+.background {
+  background: #edf5ff;
+}
+
+.blog-blue1 {
+  text-align: center;
+  padding: 9px 0;
+}
+
+.blog-blue1 span {
+  font-size: 35px;
+  font-family: "Lato";
+  font-weight: 700;
+}
+
+.blog-blue2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.blog-blue2 span {
+  font-size: 35px;
+  font-family: "Lato";
+  font-weight: 700;
+}
+
+.blogweb {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 19px 158px 70px 158px;
+  gap: 65px;
+}
+
+.blogweb div {
+  width: 300px;
+}
+
+.banners .image img {
+  width: 200px;
+  height: auto;
+}
+
+.Web img {
+  width: 100%;
+  height: 340px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.image {
+  padding: 15px 0 12px 22px;
+}
+
+.blog1 {
+  padding: 5px 11px 5px 12px;
+}
+
+.blog1 span {
+  font-size: 14px;
+  font-family: "Lato";
+  color: #000;
+  font-weight: 700;
+}
+
+.blog-web1 {
+  padding: 0px 20px 0px 20px;
+}
+
+.blog-web1 span {
+  font-size: 14px;
+  color: #8f8c8c;
+  font-family: "Lato";
+}
+.blog2 {
+  position: relative;
+  padding: 40px 30px 0 30px;
+}
+.blog2 img {
+  width: 100%;
+  height: 260px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.blog-web {
+  padding: 5px 20px 5px 20px;
+}
+
+.blog-web span {
+  font-size: 12px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+} 
+.Web3 {
+  position: relative;
+  padding: 40px 20px 0 30px;
+}
+.Web3 img {
+  width: 100%;
+  height: 260px;
+  border-radius: 8px 8px 0px 0px;
+}
+.Web3 .logo {
+  height: 260px;
+  width: 100%;
+}
+
+img.date1 {
+  display: none;
+}
+img.Comments {
+  display: contents;
+}
+.content-pictures div {
+  scroll-snap-align: center;
+}
+
+.content-pictures {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 594px;
+}
+
+
+.Web {
+  padding: 40px 30px 0 45px;
+}
+.Web img {
+  width: 100%;
+  height: 260px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.banners {
+  background: #fff;
+  border-radius: 0 0 20px 20px;
+  height: 228px;
+  width: 376px;
+}
+
+.image {
+  padding: 15px 0 12px 22px;
+}
+
+.blog1 {
+  padding: 2px 24px 5px 20px;
+}
+.blog1 span {
+  color: black;
+}
+.blog-web span {
+  font-size: 17px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+}
+
+.blog-web11 {
+  padding: 2px 20px 5px 20px;
+}
+
+.blog-web11 span {
+  font-size: 17px;
+  color: #8f8c8c;
+  font-family: "Lato";
+}
+.blog2 {
+  position: relative;
+  padding: 40px 24px 0 30px;
+}
+.blog2 img {
+  width: 100%;
+  height: 260px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.image {
+  padding: 15px 0 12px 22px;
+}
+
+.blog-web {
+  padding: 5px 20px 5px 20px;
+}
+
+.blog-web span {
+  font-size: 17px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+}
+
+.blog-web1 span {
+  font-size: 17px;
+  color: #8f8c8c;
+  font-family: "Lato";
+}
+.blog-web11 span {
+  color: #8f8c8c;
+}
+.W-hover {
+  cursor: pointer;
+}
+
+.W-hover:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 11px 15px 12px;
+  border-radius: 24px;
+}
+.service-background {
+  background: #f2f2f2;
+}
+
+.Banner-sap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bannerSap-left {
+  padding-block-start: 35px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+.Nube-Service img {
+  width: 620px;
+  height: auto;
+}
+.contact-right {
+  padding-left: 984px;
+  padding-block-start: 14px;
+}
+
+.Contact-us {
+  width: 183px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  background: #c11a1a;
+  border-radius: 9px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.Contact-us span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.successful-center {
+  display: flex;
+  justify-content: center;
+  padding-block-start: 40px;
+}
+
+.successful {
+  width: 1169px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  background: #243E69;
+  border-radius: 15px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.successful span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.font-blue1 {
+  padding: 5px 0 0 0;
+  width: 663px;
+}
+
+.Nube-Service img {
+  width: 530px;
+  height: auto;
+}
+
+.Nube-Service {
+  padding-block-start: 20px;
+}
+
 
 /*versio de escritorio*/
 /* versio de escritorio */
@@ -913,36 +1229,51 @@ li.nav-item a {
   .logo-responsive {
     display: none;
   }
+
   header.sc-bgqQcB.kkfkJv {
     display: none;
   }
+  
+  .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex; 
+  }
+
   .kkfkJv {
     display: none;
   }
+
   .translate-responsive {
     display: none;
   }
+
   .navbar-responsive {
     display: none;
   }
+
   .button-action {
     display: none;
   }
+
   .banner-responsive {
     display: none;
   }
+
   .CqLom {
     display: none;
   }
+
   .burguer {
     display: none;
   }
+
   .hola {
     display: none;
   }
+
   .burger {
     display: none;
   }
+
   .carrusel {
     display: none;
   }
@@ -954,12 +1285,15 @@ li.nav-item a {
   .service-font-red-mobile {
     display: none;
   }
+
   .blue1-responsive {
     display: none;
   }
+
   .negocios-responsive {
     display: none;
   }
+
   .carousel.slide.carousel-dark {
     display: none;
   }
@@ -987,6 +1321,7 @@ li.nav-item a {
     display: flex;
     align-items: flex-start;
   }
+
   button {
     background-color: #ff000000;
     border: none;
@@ -1039,6 +1374,10 @@ li.nav-item a {
     display: none;
   }
 
+  .blogweb {
+    display: none;
+  }
+
   .separations {
     width: 100%;
     padding: 0 31%;
@@ -1058,15 +1397,18 @@ li.nav-item a {
   .translate-responsive a {
     color: #fff;
   }
+
   .navbar-responsive {
     display: flex;
     gap: 14.75px;
     height: 55px;
   }
+
   img.logo {
     width: 100px;
     height: 100px;
   }
+
   img {
     background-color: #1a1a1a00;
     width: 55px;
@@ -1143,6 +1485,7 @@ li.nav-item a {
     font-size: 35px;
     color: #ffffff;
   }
+
   .position {
     display: flex;
     flex-direction: column;
@@ -1150,23 +1493,26 @@ li.nav-item a {
     top: 138px;
     left: 15%;
   }
+
   .menu-mobile a {
     display: flex;
     gap: 51px;
     row-gap: 26px;
     column-gap: 15px;
   }
+
   .position a {
     font-size: 130%;
     text-decoration: none;
     color: #fff;
   }
+
   img.logomobile {
     position: absolute;
-    top: 11px;
+    top: 3px;
     height: 130px;
-    width: 50%;
-    left: 20%;
+    width: 30%;
+    left: 11%;
   }
 
   a.icon.icon-whatsapp:before {
@@ -1175,9 +1521,14 @@ li.nav-item a {
     text-decoration: none;
   }
 
+  .blogweb {
+    display: none;
+  }
+
   .textblue1 {
     display: none;
   }
+
   .font-blue1\.1 {
     display: none;
   }
@@ -1195,6 +1546,7 @@ li.nav-item a {
     width: 180px;
     height: 16px;
   }
+
   .red-center {
     display: flex;
     justify-content: center;
@@ -1242,10 +1594,12 @@ li.nav-item a {
     font-size: 19px;
     line-height: 5px;
   }
+
   .text-blue5 {
     width: 100%;
     padding: 0 12%;
   }
+
   .text-blue5 span {
     font-family: "Lato";
     font-style: normal;
@@ -1286,6 +1640,7 @@ li.nav-item a {
     flex-direction: row;
     align-items: center;
   }
+
   .text-gris2 span {
     color: #606060;
     font-family: "Lato";
@@ -1294,6 +1649,7 @@ li.nav-item a {
     font-size: 18px;
     padding-left: 7px;
   }
+
   .text-gris3 {
     padding: 15px 0 0 0;
     display: flex;
@@ -1309,6 +1665,7 @@ li.nav-item a {
     font-size: 19px;
     padding-left: 7px;
   }
+
   .service-font-red-mobile {
     display: flex;
     justify-content: center;
@@ -1324,18 +1681,22 @@ li.nav-item a {
     line-height: 30px;
     color: #b50a0c;
   }
+
   .carousel-item {
     display: none;
   }
+
   .active.carousel-item {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .carousel-inner img {
     width: 290px;
     height: 190px;
   }
+
   .carousel-indicators {
     position: absolute;
     right: 0;
@@ -1349,6 +1710,7 @@ li.nav-item a {
     margin-bottom: -1rem;
     margin-left: 15%;
   }
+
   .carousel-dark .carousel-indicators [data-bs-target] {
     background-color: #1433c2;
   }
@@ -1395,6 +1757,28 @@ li.nav-item a {
     color: #fff;
     text-align: center;
   }
+
+  .blog-red span {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 72px;
+    color: #b50a0c;
+  }
+
+  .blog-blue1 span {
+    font-size: 26px;
+    font-family: "Lato";
+    font-weight: 700;
+  }
+
+  .blog-blue2 span {
+    font-size: 24px;
+    font-family: "Lato";
+    font-weight: 700;
+  }
+
   .red_home3 {
     height: 240px;
     width: 100%;
@@ -1462,6 +1846,57 @@ li.nav-item a {
     color: #b50a0c;
     text-align: center;
   }
+  .content-pictures {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 550px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .content-pictures div {
+    min-width: 100%;
+    scroll-snap-align: center;
+  }
+
+  .Web {
+    position: relative;
+    padding: 40px 30px 0 30px;
+  }
+  .blog-web span {
+    font-size: 13px;
+    font-family: "Lato";
+    font-weight: 700;
+    color: #000000;
+  }
+  .Web img {
+    width: 100%;
+    height: 260px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  img.date1 {
+    display: block;
+  }
+
+  img.date1 {
+    width: 82px;
+    position: absolute;
+    right: 28px;
+    top: 175px;
+  }
+
+
+  .banners {
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    height: 220px;
+    width: auto;
+  }
+
+  .image {
+    padding: 15px 0 12px 22px;
+  }
 
   nav.navbar {
     height: 320px;
@@ -1488,6 +1923,7 @@ li.nav-item a {
     align-items: center;
     flex-direction: column;
   }
+
   a.icon.icon-telefono {
     display: none;
   }
@@ -1515,14 +1951,25 @@ li.nav-item a {
   .great {
     display: flex;
     padding: 114px 0 0 0px;
-    margin-left:-97px;
+    margin-left: -97px;
   }
 
+  .justify-content-center.navbar-nav a {
+    font-size: 13px;
+  }
 
   .navbar-left {
     display: none;
   }
+
   nav.navbar.navbar-expand.navbar-dark.bg-\[object.Object\] {
     height: 241px;
-}
+  }
+  .blog-web11 span {
+    color: #8f8c8c;
+  }
+
+  .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex; 
+  }
 }

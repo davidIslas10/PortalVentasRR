@@ -26,7 +26,6 @@
         "home.experts": "Experts in the areas of technology"
     },
     "service": {
-
         "provide": "We provide all kinds of IT services",
         "success": "to ensure your success",
         "modalities": "  We are where your business needs it, we have different work modalities that adapt to your needs",
@@ -35,8 +34,11 @@
         "mid": "average cost",
         "middle": "A team with the client, who attends to the needs and communicates to the team in person and remotely, Middle cost"
     },
-    "Blog":{
+    "Blog": {
         "great": "Do a great project with us",
         "together": "Let´s work together!"
+    },
+    "Sap": {
+        "t-blue1":"Analysis and knowledge of recommended processes, best practices or design tools to suit you."
     }
 }

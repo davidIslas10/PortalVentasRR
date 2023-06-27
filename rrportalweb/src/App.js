@@ -1,19 +1,37 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import React, { Children } from "react";
+import { createBrowserRouter , RouterProvider } from "react-router-dom";
 import Banner from "./components/Banner";
 import Service from "./components/Service";
+import Services from "./components/Services";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      [
+      <Banner />,
+      <Service />,
+      <Blog />,
+      <Footer/>
+      ]
+    ), 
+
+  },
+    {
+      path: "/service/:serviceid",
+      element: <Services/>,
+      
+    }, 
+    
+
+]);
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar/>
-        <Banner/>
-        <Service/>
-        <Blog/>
-      </Router>     
+      <RouterProvider router={router} />
     </div>
   );
 }
