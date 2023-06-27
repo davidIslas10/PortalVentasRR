@@ -16,9 +16,7 @@ function navresp({ open }) {
         <a href="#">Contact</a>
       </div>
       <img src={LogoMobile} class="logomobile" />
-      <div className="whatsapp">
-        <a href="" class="icon icon-whatsapp" />
-      </div>
+  
       
 
     </NavbarWrapper>

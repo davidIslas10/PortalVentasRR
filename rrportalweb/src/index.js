@@ -7,6 +7,7 @@ import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 import global_es from "./components/translations/es/global.json";
 import global_en from "./components/translations/en/global.json";
+import Navbar from "./components/Navbar";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -28,6 +29,7 @@ root.render(
       <App />
     </I18nextProvider>
   </React.StrictMode>
+
 );
 
 reportWebVitals();
