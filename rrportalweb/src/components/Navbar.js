@@ -130,7 +130,7 @@ const Navbar = () => {
                         <Link class="nav-services" to={`/service/${(item.id = 5)}`}>
                           {t("banner.navbar.service_project_managments")}
                           <br></br>
-                          (SCRUM-KANBAN)
+                          (SCRUM-PMI)
                         </Link>
                       </li>
                     </section>

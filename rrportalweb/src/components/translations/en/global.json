@@ -40,5 +40,43 @@
     },
     "Sap": {
         "t-blue1":"Analysis and knowledge of recommended processes, best practices or design tools to suit you."
+    },
+    "services":{
+        "sap.analitic":"Analysis and knowledge of recommended",
+        "sap.processes":"processes, best practices or design tools to suit you.",
+        "sap.according":"Ad-Hoc developers according to business processes",
+        "sap.certification":"Certification in standard development methodologies COBIC, ETIL",
+        "sap.training":"Training of best practices developed based on learning from the different projects in which we have participated",
+        "sap.Consulting":"SAP consulting in the different modules and customizations FICO / MM / SD / WM / PP / QM",
+        "sap.Remediation":"Remediation post Implementation SAP",
+        "apps.businesses":"With Power Apps, businesses can automate",
+        "apps.complex":"complex processes and deploy low-code apps.",
+        "apps.Platform":"Platform-Wide Modernization Using Data connectors and AI.",
+        "apps.Integration":"Integration With Flow, Power BI, Salesforce, or SharePoint Libraries.",
+        "apps.Deployment":"Intranet Deployment With Teams, SharePoint, Power Platform.",
+        "apps.Adoption":"Adoption of Robust, Secure, and Compliant Low-Code Technologies.",
+        "ui.entire":"We design consistent experiences and interactions between all devices and assets, thus ensuring memorable and efficient interactions",
+        "ui.lead":"We lead the entire UX/UI design process and product definition, from the creation of the prototype to the visual style, incorporating feedback from end users and stakeholders.",
+        "ui.design":"We design and define the messages to be communicated to the user through the content and UX strategy, adapting them to the voice of the brand and the tone of each channel.",
+        "ui.our":"Our designers are trained to work with different frameworks such asDesign Thinking. copyright © 2023 R&R ITCONSULTING`",
+        "data.unlock":"Unlock strategic value in business data and build a",
+        "data.driven":"data-driven organization to drive business value.",
+        "data.service":"Data services",
+        "data.design":"Strategy and design services",
+        "data.analytic":"Analytics Consulting",
+        "data.prepare":"Prepare data for intelligent workflows",
+        "soft.develop":"We develop technology for organizations, agencies",
+        "soft.startups":"and startups around the world.",
+        "soft.mobile":"Developers on Web & Mobile platforms. Use technologies such as NET, Java, ASP, Node JS and frameworks such as React JS, Angular JS and JS View.",
+        "soft.custom":"Custom software developments and/or customer needs",
+        "soft.support":"Application maintenance and support",
+        "soft.agile":"Our developers are trained to work with Agile Methodologies",
+        "project.automate":"With Power Apps, businesses can automate",
+        "project.complex":"complex processes and deploy low-code apps.",
+        "project.direction":"Direction, Management and Project Administration",
+        "project.certification":"Certification in SAP ASAP Methodologies",
+        "project.pmi":"Certification in Methodologies PMI",
+        "project.scrum":"Certification in SCRUM ORG & SCRUM ALLIANCE Methodologies"
+        
     }
 }

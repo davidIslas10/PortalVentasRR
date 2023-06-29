@@ -19,18 +19,18 @@ const Footer = () => {
             </div>
             <Container className="justify-content-center">
               <Nav className="justify-content-center">
-                <Nav.Link href="#Home">Home</Nav.Link>
-                <Nav.Link href="#Service">Service</Nav.Link>
-                <Nav.Link href="#About">About</Nav.Link>
-                <Nav.Link href="#Careers">Careers</Nav.Link>
-                <Nav.Link href="#Contact">Contact</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="#Service/0">Service</Nav.Link>
+                <Nav.Link href="#">About</Nav.Link>
+                <Nav.Link href="#">Careers</Nav.Link>
+                <Nav.Link href="">Contact</Nav.Link>
               </Nav>
             </Container>
 
             <div className="footer-right">
-              <a href="" class="icon icon-instagram" />
-              <a href="" class="icon icon-linkedin" />
-              <a href="" class="icon icon-whatsapp" />
+              <a href="https://www.instagram.com/rrit_consulting/" class="icon icon-instagram" />
+              <a href="https://mx.linkedin.com/company/r-r-i-t-consulting" class="icon icon-linkedin" />
+              <a href="https://api.whatsapp.com/send/?phone=5215532253411&text=%C2%A1Hola%21+estoy+interesado+en+sus+servicios+&type=phone_number&app_absent=0" class="icon icon-whatsapp" />
             </div>
           </Navbar>
         </footer>

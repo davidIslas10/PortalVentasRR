@@ -12,21 +12,21 @@ const Sap = () => {
   const [t, i18n] = useTranslation("global");
   const params = useParams();
 
-  
-  const service = useMemo(()=> getService(params.serviceid),
+  const service = useMemo(
+    () => getService(params.serviceid),
 
-  [params.serviceid]
-  
+    [params.serviceid]
   );
 
-  if(service==undefined){
+  if (service == undefined) {
     console.error("Item no encontrado");
     return false;
   }
+
   return (
     <div>
       <div className="service-background">
-        <Navbar/>
+        <Navbar />
         <div className="image-banner">
           <span>
             <img src={service.urlImage} />
@@ -38,17 +38,17 @@ const Sap = () => {
             <span>{t("banner.home.negocios")}</span>
           </div>
           <div className="font-red">
-            <span>{service.textRed1}
-            <br></br>
+            <span>
+              {service.textRed1}
+              <br></br>
               {service.textRed3}
             </span>
-         
           </div>
           <div className="font-blue1">
-            <span>{service.textblue1}</span>
+            <span>{t(service.textblue1)}</span>
           </div>
           <div className="font-blue1.1">
-            <span>{service.textblue2}</span>
+            <span>{t(service.textblue2)}</span>
           </div>
         </div>
       </div>
@@ -63,34 +63,25 @@ const Sap = () => {
               <span>OUR TECHNOLOGICAL OFFER</span>
             </div>
             <div className="font-red">
-              <span>{service.textRed2}
-              <br></br>
-              {service.textRed3}
-              </span>
-            </div>
-            <div className="text-blue5">
-              <span ><img src={service.flecha} />{service.textBullets[0]}</span>
-            </div>
-            <div className="text-blue5">
               <span>
-              <img src={service.flecha} />{service.textBullets[1]}
+                {service.textRed2}
+                <br></br>
+                {service.textRed3}
               </span>
             </div>
+           
             <div className="text-blue5">
-              <span>
-              <img src={service.flecha} /> {service.textBullets[2]}
-              </span>
+              
+                {service.textBullets.map((bullet) => (
+                  <span>
+                    <img src={service.flecha} /> {t(bullet)}
+                    <br></br>
+                  </span>
+                 
+                ))}
+              
             </div>
-            <div className="text-blue5">
-              <span>
-              <img src={service.flecha} /> {service.textBullets[3]}
-              </span>
-            </div>
-            <div className="text-blue5">
-              <span>
-              <img src={service.flecha} /> {service.textBullets[4]}
-              </span>
-            </div>
+            
           </div>
           <div className="Banner-right">
             <div className="Nube-Service">
@@ -113,10 +104,10 @@ const Sap = () => {
           </span>
         </div>
       </div>
- 
-      <Logos/>
-      <Personage/>
-      <Footer/>
+
+      <Logos />
+      <Personage />
+      <Footer />
     </div>
   );
 };

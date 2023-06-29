@@ -36,14 +36,14 @@ const Service = () => {
 
       <Carousel variant="dark">
         <Carousel.Item>
-          <img className="d-block" src={Sap} alt="First slide" />
+          <img  src={Sap} alt="First slide" />
           <div className="shadow">
-            <a>SAP R3/</a>
-            <a>Hana & ABAP resources</a>
+            <h3>SAP R3/</h3>
+            <p>Hana & ABAP resources</p>
           </div>
           <br></br>
-          <img className="d-block" src={Software} alt="First slide" />
-          <div className="shadow">
+          <img  src={Software} alt="First slide" />
+          <div className="shadow1">
             <h3>Software Development</h3>
             <p>(Web & Mobile)</p>
           </div>
@@ -52,13 +52,13 @@ const Service = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block" src={Analytics} alt="First slide" />
+          <img  src={Analytics} alt="First slide" />
           <div className="shadow">
             <p>Data & Analytics</p>
           </div>
           <br></br>
-          <img className="d-block" src={uxDesign} alt="First slide" />
-          <div className="shadow">
+          <img src={uxDesign} alt="First slide" />
+          <div className="shadow1">
             <p>UX/UI Design</p>
           </div>
           <Carousel.Caption>
@@ -66,13 +66,13 @@ const Service = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block" src={PowerApps} alt="First slide" />
+          <img  src={PowerApps} alt="First slide" />
           <div className="shadow">
             <p>PowerApps Development </p>
           </div>
           <br></br>
-          <img className="d-block" src={Managment} alt="First slide" />
-          <div className="shadow">
+          <img  src={Managment} alt="First slide" />
+          <div className="shadow1">
             <p>Project Managment</p>
           </div>
           <Carousel.Caption>
