@@ -38,5 +38,44 @@
     "Blog":{
         "great": "Haz un gran proyecto con nosotros",
         "together": "¡Vamos a trabajar juntos!"
+    },
+    "services":{
+        "sap.analitic":"Análisis y conocimiento de recomendados",
+        "sap.processes":"procesos, mejores prácticas o herramientas de diseño a su medida.",
+        "sap.according":"Desarrolladores Ad-Hoc según procesos de negocio",
+        "sap.certification":"Certificación en metodologías de desarrollo estándar COBIC, ETIL",
+        "sap.training":"Formación de mejores prácticas desarrollada en base al aprendizaje de los diferentes proyectos en los que hemos participado",
+        "sap.Consulting":"Consultoría SAP en los diferentes módulos y personalizaciones FICO/MM/SD/WM/PP/QM",
+        "sap.Remediation":"Remediación posterior a la implementación de SAP",
+        "apps.businesses":"Con Power Apps, las empresas pueden automatizar",
+        "apps.complex":"procesos complejos e implementación de aplicaciones de bajo código.",
+        "apps.Platform":"Modernización de toda la plataforma mediante conectores de datos e IA.",
+        "apps.Integration":"Integración con bibliotecas de Flow, Power BI, Salesforce o SharePoint.",
+        "apps.Deployment":"Implementación de intranet con Teams, SharePoint, Power Platform.",
+        "apps.Adoption":"Adopción de tecnologías robustas, seguras y compatibles con Low-Code.",
+        "ui.entire":"Diseñamos experiencias e interacciones consistentes entre todos los dispositivos y activos, asegurando así interacciones memorables y eficientes",
+        "ui.lead":"Lideramos todo el proceso de diseño de UX/UI y la definición del producto, desde la creación del prototipo hasta el estilo visual, incorporando los comentarios de los usuarios finales y las partes interesadas",
+        "ui.design":"Diseñamos y definimos los mensajes a comunicar al usuario a través de la estrategia de contenidos y UX, adaptándolos a la voz de la marca y al tono de cada canal.",
+        "ui.our":"Nuestros diseñadores están capacitados para trabajar con diferentes marcos como Design Thinking. copyright © 2023 R&R ITCONSULTING`",
+        "data.unlock":"Desbloquee el valor estratégico en los datos comerciales y cree aun",
+        "data.driven":"organización basada en datos para generar valor empresarial.",
+        "data.service":"Servicios de datos",
+        "data.design":"Servicios de estrategia y diseño",
+        "data.analytic":"Consultoría analítica",
+        "data.prepare":"Preparar datos para flujos de trabajo inteligentes",
+        "soft.develop":"Desarrollamos tecnología para organizaciones, agencias",
+        "soft.startups":"startups de todo el mundo.",
+        "soft.mobile":"Desarrolladores en plataformas web y móviles. Utilice tecnologías como NET, Java, ASP, Node JS y marcos como React JS, Angular JS y JS View.",
+        "soft.custom":"Desarrollos de software a la medida y/o necesidades del cliente",
+        "soft.support":"Mantenimiento y soporte de aplicaciones",
+        "soft.agile":"Nuestros desarrolladores están capacitados para trabajar con Metodologías Ágiles",
+        "project.automate":"Con Power Apps, las empresas pueden automatizar",
+        
+        "project.complex":"procesos complejos e implementación de aplicaciones de bajo código.",
+        "project.direction":"Dirección, Gestión y Administración de Proyectos",
+        "project.certification":"Certificación en Metodologías SAP ASAP",
+        "project.pmi":"Certificación en Metodologías PMI",
+        "project.scrum":"Certificación en Metodologías SCRUM ORG & SCRUM ALLIANCE"
+        
     }
 }

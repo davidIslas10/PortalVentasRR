@@ -1,4 +1,3 @@
-
 .container-banners {
   background: #f2f2f2;
 }
@@ -200,7 +199,6 @@ img.logoIT {
 .negocios-integrales {
   margin-block-start: -2%;
   padding: 0 0 38px 47px;
-
 }
 
 .text-negocios span {
@@ -289,6 +287,7 @@ img.img-nuve {
 
 .text-blue5 {
   padding: 15px 0 0 0;
+  line-height: 37px;
 }
 
 .text-blue5 span {
@@ -1023,7 +1022,7 @@ li.nav-item a {
   font-family: "Lato";
   font-weight: 700;
   color: #000000;
-} 
+}
 .Web3 {
   position: relative;
   padding: 40px 20px 0 30px;
@@ -1054,7 +1053,6 @@ img.Comments {
   width: auto;
   height: 594px;
 }
-
 
 .Web {
   padding: 40px 30px 0 45px;
@@ -1192,7 +1190,7 @@ img.Comments {
   height: 62px;
   display: flex;
   justify-content: center;
-  background: #243E69;
+  background: #243e69;
   border-radius: 15px;
   cursor: pointer;
   align-items: center;
@@ -1212,14 +1210,13 @@ img.Comments {
 }
 
 .Nube-Service img {
-  width: 530px;
+  width: 620px;
   height: auto;
 }
 
 .Nube-Service {
-  padding-block-start: 20px;
+  padding-block-start: 40px;
 }
-
 
 /*versio de escritorio*/
 /* versio de escritorio */
@@ -1233,9 +1230,11 @@ img.Comments {
   header.sc-bgqQcB.kkfkJv {
     display: none;
   }
-  
-  .carousel-item-next, .carousel-item-prev, .carousel-item.active {
-    display: flex; 
+
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active {
+    display: flex;
   }
 
   .kkfkJv {
@@ -1303,6 +1302,20 @@ img.Comments {
 /* versio de mobile */
 /*versio de mobile*/
 @media (max-width: 435px) {
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active {
+    display: flex;
+  }
+
+  .carousel-item.active {
+    /* display: block; */
+    display: flex;
+  }
+
+  .carousel.slide.carousel-dark {
+    padding: 0px 16%;
+  }
   nav.navbar {
     height: 320px;
     padding: 0px;
@@ -1451,6 +1464,7 @@ img.Comments {
     display: flex;
     padding: 0 14%;
     margin-left: 0px;
+    width: 100%;
   }
 
   .font-blue1 span {
@@ -1510,8 +1524,8 @@ img.Comments {
   img.logomobile {
     position: absolute;
     top: 3px;
-    height: 130px;
-    width: 30%;
+    height: 140px;
+    width: 130px;
     left: 11%;
   }
 
@@ -1720,9 +1734,28 @@ img.Comments {
     opacity: 0.9;
     z-index: 2;
     position: absolute;
-    width: 290px;
+    width: 100%;
     height: 54px;
-    top: 135px;
+    top: 138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .shadow1 {
+    background: #223e69;
+    opacity: 0.9;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 54px;
+    top: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .carousel-item figure .capa {
@@ -1742,13 +1775,16 @@ img.Comments {
     visibility: visible;
   }
 
-  .h3,
-  h3 {
-    font-size: calc(1.3rem + 0.6vw);
-    color: white;
+  .shadow h3 {
+    color: #ffff;
     font-size: 16px;
-    font-family: "Lato";
-    text-align: center;
+    padding-block-start: 16px;
+  }
+
+  .shadow1 h3 {
+    color: #ffff;
+    font-size: 16px;
+    padding-block-start: 16px;
   }
 
   p {
@@ -1770,13 +1806,13 @@ img.Comments {
   .blog-blue1 span {
     font-size: 26px;
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 800;
   }
 
   .blog-blue2 span {
     font-size: 24px;
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 800;
   }
 
   .red_home3 {
@@ -1786,7 +1822,7 @@ img.Comments {
   }
 
   .red_home3 {
-    height: 240px;
+    height: 215px;
     width: 100%;
     background: #b50a0c;
   }
@@ -1795,34 +1831,34 @@ img.Comments {
     font-style: normal;
     font-family: "Lato";
     z-index: 1;
-    font-size: 19px;
+    font-size: 16px;
     color: #ffffff;
   }
 
   .person {
     display: flex;
-    margin-block-start: -171px;
+    margin-block-start: -150px;
     justify-content: flex-end;
   }
 
   img.personaje {
-    height: 269px;
+    height: 244px;
     z-index: 1;
-    width: 162px;
+    width: 166px;
   }
 
   .red_home3 .vector_separacion {
     height: 7px;
-    width: 34px;
+    width: 19px;
     border-radius: 2px;
-    margin-block-start: -255px;
-    margin-left: 8px;
+    margin-block-start: -239px;
+    margin-left: -1px;
   }
 
   .buttton-center {
     display: flex;
     margin-block-start: -108px;
-    padding-left: 88px;
+    padding-left: 47px;
     justify-content: flex-start;
   }
 
@@ -1885,7 +1921,6 @@ img.Comments {
     right: 28px;
     top: 175px;
   }
-
 
   .banners {
     background: #fff;
@@ -1950,8 +1985,8 @@ img.Comments {
 
   .great {
     display: flex;
-    padding: 114px 0 0 0px;
-    margin-left: -97px;
+    padding: 97px 0 0 0px;
+    margin-left: -150px;
   }
 
   .justify-content-center.navbar-nav a {
@@ -1969,7 +2004,9 @@ img.Comments {
     color: #8f8c8c;
   }
 
-  .carousel-item-next, .carousel-item-prev, .carousel-item.active {
-    display: flex; 
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active {
+    display: flex;
   }
 }

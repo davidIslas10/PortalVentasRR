@@ -12,148 +12,105 @@ import N_Soft from "../images/Imagen Software Development.png";
 import N_Manngment from "../images/Imagen Project Managment.png";
 import flecha_item from "../images/flecha-item.png";
 
-
-
-
 export const items = [
   {
     id: "0",
     urlImage: B_sap,
     textRed1: "SAP R3 / HANA Solutions",
     textRed2: "SAP R3 / HANA Solutions",
-    textblue1: "Analysis and knowledge of recommended",
-    textblue2: "processes, best practices or design tools to suit you.",
+    textblue1: "services.sap.analitic",
+    textblue2: "services.sap.processes",
     textBullets: [
-    "Ad-Hoc developers according to business processes",
-      `Certification in standard development methodologies
-        COBIC, ETIL`,
-      `Training of best practices developed based on learning from 
-        the different projects in which we have participated
-        `,
-      `SAP consulting in the different modules and customizations 
-        FICO / MM / SD / WM / PP / QM
-        `,
-      "Remediación post Implementación SAP",
+      `services.sap.according`,
+      `services.sap.certification`,
+      `services.sap.training`,
+      `services.sap.Consulting`,
+      "services.sap.Remediation",
     ],
-    imgNube:N_Sap,
-    flecha:flecha_item,
+    imgNube: N_Sap,
+    flecha: flecha_item,
   },
   {
     id: "1",
     urlImage: B_powerapps,
     textRed1: "PowerApps Development",
     textRed2: "PowerApps Development",
-    textblue1: "With Power Apps, businesses can automate",
-    textblue2: "complex processes and deploy low-code apps.",
+    textblue1: "services.apps.businesses",
+    textblue2: "services.apps.complex",
     textBullets: [
-       `Platform-Wide Modernization Using Data 
-          connectors and AI.`,
-      ` Integration With Flow, Power BI, Salesforce, or 
-          SharePoint Libraries.
-          `,
-      ` Intranet Deployment With Teams, SharePoint, 
-          Power Platform.
-          
-                `,
-      `Adoption of Robust, Secure, and Compliant 
-          Low-Code Technologies.
-          `,
-      "",
+      `services.apps.Platform`,
+      `services.apps.Integration`,
+      `services.apps.Deployment`,
+      `services.apps.Adoption`,
     ],
-     flecha:flecha_item,
-    imgNube:N_power, 
+    flecha: flecha_item,
+    imgNube: N_power,
   },
   {
     id: "2",
     urlImage: B_UI,
     textRed1: "UX/UI Design",
     textRed2: "UX/UI Design",
-    textblue1:
-      "We lead the entire UX/UI designprocess and product definition, from the creation of the prototype to the visual style, incorporating feedback from end users and stakeholders.",
+    textblue1:"services.ui.entire",
     textblue2: "",
     textBullets: [
-      `We lead the entire UX/UI designprocess and product 
-              definition, from the creation of the prototype to the visual 
-              style, incorporating feedback from end users and 
-              stakeholders.
-              `,
-      `We design and define the messages to be communicated to 
-              the user through the content and UX strategy, adapting 
-              them to the voice of the brand and the tone of each 
-              channel.              
-              `,
-      `Our designers are trained to work with different 
-              frameworks such asDesign Thinking. pyright © 2023 R&R ITCONSULTING`,
-      ` `,
-      "",
+      `services.ui.lead`,
+      `services.ui.design`,
+      `services.ui.our`,
     ],
-    imgNube:N_UI, 
+    imgNube: N_UI,
   },
   {
     id: "3",
     urlImage: B_Data,
     textRed1: "Data & Analytics",
     textRed2: "Data & Analytics",
-    textblue1: "Unlock strategic value in business data and build a",
-    textblue2: "data-driven organization to drive business value.",
+    textblue1: "services.data.unlock",
+    textblue2: "services.data.driven",
     textBullets: [
-      `Data services`,
-      `Strategy and design services`,
-      `Analytics Consulting`,
-      `Prepare data for intelligent workflows`,
-      "",
+      `services.data.service`,
+      `services.data.design`,
+      `services.data.analytic`,
+      `services.data.prepare`,
     ],
-    imgNube:N_Data, 
-    flecha:flecha_item,
-
+    imgNube: N_Data,
+    flecha: flecha_item,
   },
   {
     id: "4",
     urlImage: B_Soft,
     textRed1: "Developing custom software",
     textRed2: "Software development ",
-    textblue1: "We develop technology for organizations, agencies",
-    textblue2: "and startups around the world.",
+    textblue1: "services.soft.develop",
+    textblue2: "services.soft.startups",
     textRed2: "Software development",
     textRed3: "(Web & Mobile)",
     textBullets: [
-      `Developers on Web & Mobile platforms. Use technologies 
-                  such as NET, Java, ASP, Node JS and frameworks such as 
-                  React JS, Angular JS and JS View.
-                  `,
-      `Custom software developments and/or customer needs`,
-      `Application maintenance and support`,
-      `Our developers are trained to work with Agile 
-                  Metodologhys 
-                  `,
-      "",
+      `services.soft.mobile`,
+      `services.soft.custom`,
+      `services.soft.support`,
+      `services.soft.agile`,
     ],
     imgNube: N_Soft,
-    flecha:flecha_item,
+    flecha: flecha_item,
   },
   {
     id: "5",
     urlImage: B_Manngment,
     textRed1: "Project Managment",
     textRed2: "Project Managment ",
-    textRed3: "(PMI/SCRUM-KANBAN)",
-    textblue1: "With Power Apps, businesses can automate",
-    textblue2: "complex processes and deploy low-code apps.",
+    textRed3: "(PMI/SCRUM-PMI)",
+    textblue1: "services.project.automate",
+    textblue2: "services.project.complex",
     textRed2: "PowerApps Development",
     textBullets: [
-      `Direction, Management and Project Administration                
-                  `,
-      `Certification in SAP ASAP Methodologies
-                  `,
-      `Certification in Methodologies PMI`,
-      `Certification in SCRUM ORG & SCRUM ALLIANCE 
-                  Methodologies                                    
-                  `,
-      "",
+      `services.project.direction`,
+      `services.project.certification`,
+      `services.project.pmi`,
+      `services.project.scrum`,
     ],
-    imgNube:N_Manngment, 
-    flecha:flecha_item,
-
+    imgNube: N_Manngment,
+    flecha: flecha_item,
   },
 ];
 
