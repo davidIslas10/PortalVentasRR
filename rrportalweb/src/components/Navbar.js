@@ -1,13 +1,20 @@
 import React, { useState } from "react";
-import LogoMobile from "../images/R&R Fondo Blanco.svg";
 import { HeaderWrapper } from "./Header";
 import Navresp from "./navresp";
 import MenuButton from "./MenuButton";
 import { useTranslation } from "react-i18next";
-import LogoIT from "../images/Logo.png";
-import flechas from "../images/flecha-service.png";
-import { Link } from "react-router-dom";
-import { items } from "./items";
+import LogoIT from "../images/img/logo.svg";
+import flag_usa from "../images/flagUsa.png";
+import headhunter from "../images/img/headhunter.png";
+import logotipo_sap from "../images/img/logotipo_sap.png";
+import linkedin from "../images/img/linkedin.png";
+import whatsapp from "../images/img/whatsapp.png";
+import instagram from "../images/img/instagram.png";
+import "../CSS/navbar.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import Dropdown from 'react-bootstrap/Dropdown';
 function useActive() {
   const [active, setActive] = useState(false);
   const haleTrue = () => setActive(true);
@@ -29,136 +36,88 @@ const Navbar = () => {
 
   const [t, i18n] = useTranslation("global");
   return (
-    <div>
+    <div className="container-navbar">
       <nav class="navbar" style={{ backgroundColor: "#223E69" }}>
         <div class="container">
           <div className="navbar-left">
-            <a href="#" class="icon icon-correo-electronico" />
-            <a href="https://api.whatsapp.com/send/?phone=5215532253411&text=%C2%A1Hola%21+estoy+interesado+en+sus+servicios+&type=phone_number&app_absent=0" class="icon icon-telefono" />
-            <div class="text-translate">
+            <img src={LogoIT} class="logoIT" />
+          </div>
+          <div className="navbar-right">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link dark" href="/">
+                  Inicio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Acercade">
+                  {t("banner.navbar.about")}
+                </a>
+              </li>
+              <li class="nav-item position-relative">
+                <Dropdown>
+
+                  <Dropdown.Toggle variant="none" id="dropdown-basic">
+                    Servicios
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="/Desarrollo-software"><span className="iconos icon icon-software-development" />Desarrollo de Software</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2"><span className="iconos icon icon-data-analytics" />Data Scientist</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3"><span className="iconos icon icon-sap-r3" />ERP Service</Dropdown.Item>
+                    <Dropdown.Item href="#/action-4"><span className="iconos icon icon-project-managments" />Project Management</Dropdown.Item>
+                    <Dropdown.Item href="#/action-5"><span className="iconos icon icon-powerapps" />Power Apps</Dropdown.Item>
+                    <Dropdown.Item href="#/action-6"><img className="hunter-m" src={headhunter} />Head Hunter</Dropdown.Item>
+                    <Dropdown.Item href="#/action-7"><span className="iconos icon icon-Icono-ux" />UX-UI</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  {t("banner.navbar.careers")}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Trascender
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Contacto
+                </a>
+              </li>
+              <li> <img src={flag_usa} class="flagusa" /></li>
+              <li class="lenguage">
+
+              </li>
+
+            </ul>
+            {/* <div class="text-translate">
               <a onClick={() => i18n.changeLanguage("es")}>ESP</a>
               <span>|</span>
               <a onClick={() => i18n.changeLanguage("en")}>ING</a>
-            </div>
-          </div>
-
-          <div className="navbar-right">
-            <a href="https://www.instagram.com/rrit_consulting/" class="icon icon-instagram" />
-            <a href="https://mx.linkedin.com/company/r-r-i-t-consulting" class="icon icon-linkedin" />
-            <a href="https://api.whatsapp.com/send/?phone=5215532253411&text=%C2%A1Hola%21+estoy+interesado+en+sus+servicios+&type=phone_number&app_absent=0" class="icon icon-whatsapp" />
+            </div> */}
           </div>
         </div>
 
-        <div class="responsive">
-          <div class="logo-responsive">
-            <img src={LogoMobile} class="logo" />
-          </div>
-
-          <div class="translate-responsive">
-            <a href="#">ESP</a>
-            <span>|</span>
-            <a href="#">ING</a>
-          </div>
-        </div>
 
         <HeaderWrapper>
           <Navresp open={open} />
           <MenuButton open={open} handleClick={handleClick} />
         </HeaderWrapper>
       </nav>
-
-      <div className="container-banners">
-        <div>
-          <div class="banner">
-            <div className="banner-left">
-              <img src={LogoIT} class="logoIT" />
-            </div>
-
-            <div className="banner-right">
-              <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link dark" href="/">
-                    {t("banner.navbar.home")}
-                  </a>
-                </li>
-                <li class="nav-item position-relative">
-                  <a class="nav-link" href="#">
-                    {t("banner.navbar.service")}
-                  </a>
-                  {items.map((item) => (
-                    <section class="menu-service">
-                      <img class="img-flecha" src={flechas} />
-                      <li class="nav-service">
-                        <span class="iconos icon icon-sap-r3"></span>
-                        <Link
-                          class="nav-services"
-                          to={`/service/${(item.id = 0)}`}
-                        >
-                          SAP R3/ Hana & ABAP<br></br>
-                          {t("banner.navbar.service-sap")}
-                        </Link>
-                      </li>
-                      <li class="nav-service">
-                        <span class="iconos icon icon-Icono-ux"></span>
-                        <Link class="nav-services" to={`/service/${(item.id = 2)}`}>
-                          {t("banner.navbar.service-uxui")}
-                        </Link>
-                      </li>
-                      <li class="nav-service">
-                        <span class="iconos icon icon-software-development"></span>
-                        <Link class="nav-services" to={`/service/${(item.id = 4)}`}>
-                          {t("banner.navbar.service-software_develop")}
-                          <br></br>
-                          {t("banner.navbar.service-Web_Mobile")}
-                        </Link>
-                      </li>
-                      <li class="nav-service">
-                        <span class="iconos icon icon-powerapps"></span>
-                        <Link class="nav-services" to={`/service/${(item.id = 1)}`}>
-                          PowerApps<br></br>
-                          {t("banner.navbar.service-powerapps")}
-                        </Link>
-                      </li>
-                      <li class="nav-service">
-                        <span class="iconos icon icon-data-analytics"></span>
-                        <Link class="nav-services" to={`/service/${(item.id = 3)}`}>
-                          {t("banner.navbar.service-analitic")}
-                        </Link>
-                      </li>
-                      <li class="nav-service">
-                        <span class="iconos icon icon-project-managments"></span>
-                        <Link class="nav-services" to={`/service/${(item.id = 5)}`}>
-                          {t("banner.navbar.service_project_managments")}
-                          <br></br>
-                          (SCRUM-PMI)
-                        </Link>
-                      </li>
-                    </section>
-                  ))}
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    {t("banner.navbar.about")}
-                  </a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    {t("banner.navbar.careers")}
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    {t("banner.navbar.contact")}
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <div class="col-md-12">
+        <ul class="social-network social-circle">
+          <a href="https://www.linkedin.com/company/r-r-i-t-consulting/mycompany/" target="_blank" className="linkedin"><img src={linkedin} /></a>
+          <a className="instagram" href="https://www.instagram.com/rrit_consulting/" target="_blank"><img src={instagram} /></a>
+          <a className="whatsapp" href="https://wa.me/5525386986" target="_blank"><img src={whatsapp}/></a>
+          <a href="https://discovery.ariba.com/profile/AN01439983823" target="_blank">
+            <img alt="Ver el perfil de NEGOCIOS INTEGRALES CMJ SA DE CV en SAP Business Network Discovery" src={logotipo_sap} />
+          </a>
+        </ul>
       </div>
-    </div>
+    </div >
   );
 };
 

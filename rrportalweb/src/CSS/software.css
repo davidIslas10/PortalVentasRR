@@ -1,0 +1,202 @@
+.banner-desarrollo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-block-start: 3%;
+}
+
+.container-desarrollo {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: center;
+    padding-left: 30%;
+    gap: 15px;
+}
+.banner-text h1 {
+    font-size: 14px;
+    color: black;
+}
+.banner-text p {
+    font-size: 19px;
+    font-weight: 800;
+    color: #bb2828;
+}
+.container-desarrollo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+img.img-ds {
+    width: 100px;
+}
+.body-desarrollo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-block-end: 30px;
+}
+img.desarrollo_body {
+    width: 60%;
+}
+img.desarrollo_m {
+    display: none;
+}
+.banner-desarrollo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-block-start: 3%;
+}
+.banner-text span {
+    color: #243E69 !important;
+    font-size: 19px !important;
+    font-weight: 700 !important;
+}
+.banner-text span {
+    color: #243E69 !important;
+    font-size: 19px !important;
+    font-weight: 700 !important;
+    width: 556px;
+}
+.Ds-1 {
+    width: 300px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.Ds-1 span {
+    text-align: center;
+}
+.desarrollo-sofware .container-logos-carrusel {
+    position: static;
+    padding: 0!important;
+    margin: 0 158px!important;
+}
+.desarrollo-sofware .container-logos-carrusel {
+    position: static;
+    padding: 0!important;
+    margin: 0 153px!important;
+}
+
+.contactanos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0px;
+    gap: 25px;
+}
+.contactanos span {width: 57%;font-size: 19px;width: 440px;}
+
+.contactanos button {
+    appearance: none;
+    height: 45px;
+    background-color: #223e69;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .body-desarrollo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    img.desarrollo_body {
+        width: 60%;
+    }
+    img.desarrollo_m {
+        display: none;
+    }
+    img.desarrollo_m {
+        display: block;
+    }
+    .banner-desarrollo {
+        padding: 0 !important;
+        width: 100% !important;
+    }
+    
+    .banner-text {
+        padding: 0 !important;
+    }
+    
+    .banner-text {
+        display: flex;
+    }
+    .banner-text h3 {
+        text-align: center;
+    }
+    
+    .banner-text p {
+        text-align: center;
+        padding: 0 25px;
+    }
+    .banner-text span {
+        color: #243E69 !important;
+        font-size: 19px !important;
+        font-weight: 700 !important;
+        text-align: center;
+        padding: 0 15px;
+        width: 100% !important;
+    }
+    .body-desarrollo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-block-start: 20px;
+    }
+    .contactanos {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .contactanos span {
+        width: 90%;
+        text-align: center;
+    }
+    .desarrollo-sofware .container-logos-carrusel {
+        position: static;
+        padding: 0!important;
+        margin: 0 !important;
+        margin-top: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+        width: 90% !important;
+        display: flex;
+        justify-content: center;
+        margin-left: 17px !important;
+    }
+    
+}

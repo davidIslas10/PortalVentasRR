@@ -1,0 +1,35 @@
+
+.container-logos-carrusel {
+    width: 70%;
+    background: #FFFF;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-margin-before: 234px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
+    height: 119px!important;
+    justify-content: center;
+    margin-block-start: 234px;
+    position: absolute;
+    width: 73%;
+    z-index: 1;
+}
+.container-logos-carrusel Button {
+    background: none;
+    border: none!important;
+    box-shadow: none !important;
+    color: #223e69;
+    padding: 0;
+}
+.eZqZrI:hover:enabled, .eZqZrI:focus:enabled {
+    color: #223e69 !important;
+    background-color: transparent !important;
+}
+img.grupo_salinas {
+    width: 120px !important;
+}
+
+@media (max-width: 768px){
+  
+}

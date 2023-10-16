@@ -1,0 +1,331 @@
+.container-acercade .container-banners {
+    background: none;
+}
+
+.container-acercade .carousel-caption {
+    padding-block-start: 50px !important;
+    left: 11% !important;
+    width: 442px !important;
+}
+
+.container-acercade .text-portada h1 {
+    text-align: justify;
+}
+
+.container-acercade img.portada {
+    width: 100% !important;
+    height: 83vh !important;
+}
+
+.container-acercade .carousel-caption p {
+    padding: 10px 0px;
+}
+img.valorimgm {
+    display: none;
+}
+.container-mision-vision {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: -150px;
+    padding-left: 11%;
+}
+
+span.valores {
+    font-size: 38px;
+    color: #223e69;
+    font-family: var(--bs-body-font-family);
+    font-weight: 700;
+    padding-block-end: 11px;
+}
+
+img.valorimg {
+    width: 70%;
+}
+.mision-vision {
+    display: flex;
+    padding-block-start: 37px;
+    column-gap: 53px;
+    justify-content: center;
+}
+.mision {
+    width: 440px;
+    height: 240px;
+}
+
+.mision-header {
+    height: 30%;
+    background: #223e69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision-header span {
+    color: #ffff;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.mision-body {
+    background: #FFFF;
+    height: 70%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.mision-body span {
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+
+.vision {
+    width: 440px;
+    height: 240px;
+}
+
+.vision-header {
+    height: 30%;
+    background: #223e69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-header span {
+    color: #ffff;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.vision-body {
+    background: #FFFF;
+    height: 70%;
+    padding: 28px;
+    text-align: justify;
+}
+
+.vision-body span {
+    font-size: 14px !important;
+}
+
+.Fortalezas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block-start: 50px;
+}
+
+.Fortalezas a {
+    font-size: 38px !important;
+    color: #223e69 !important;
+    font-weight: 700;
+}
+
+.Fortalezas span {
+    font-size: 19px;
+    color: #c21f1f;
+    font-weight: 800;
+}
+
+.oferta1 {
+    width: 400px;
+    height: 100px;
+    background: #223e69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oferta2 {
+    width: 400px;
+    height: 100px;
+    background: #223e69;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0 2px;
+}
+
+.ofertas {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    padding: 40px 0px;
+}
+
+.oferta1 h1 {
+    font-size: 14px;
+    color: #ffff;
+    text-align: center;
+}
+
+.oferta2 h1 {
+    font-size: 14px;
+    color: #ffff;
+    text-align: center;
+}
+
+.Fortalezas h3 {
+    padding: 40px 0;
+}
+
+img.expertos {
+    width: 608px;
+}
+
+
+.text-tecnologias {
+    width: 387px;
+    height: 300px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.expertos-tecnologias {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0px;
+}
+
+.text-tecnologias span {
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 500;
+    color: #747474;
+}
+
+.text-tecnologias h3 {
+    color: #243E69 !important;
+    font-size: 19px !important;
+    font-weight: 700 !important;
+    padding: 0;
+}
+
+
+.text-tecnologias span {
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 500;
+    color: #747474;
+}
+
+@media (min-width: 1600px) {
+    .container-acercade img.portada {
+        width: 100% !important;
+        height: 63vh !important;
+    }
+
+    .container-acercade .carousel-caption {
+        padding-block-start: 100px !important;
+        left: 11% !important;
+        width: 442px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-acercade img.portadam {
+        display: none;
+    }
+
+    .container-acercade .container-banners .carousel-caption .text-portada h3 {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        color: #223e69 !important;
+    }
+
+    .container-acercade .container-banners .carousel-caption .text-portada {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-acercade .container-banners .carousel-caption .text-portada p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        color: black;
+    }
+
+    .container-acercade .container-banners .carousel-caption .text-portada h1 {
+        width: 100%;
+        text-align: center;
+        color: black;
+        padding: 0 17px;
+    }
+
+    .container-acercade .container-mision-vision {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    img.valorimg {
+        display: none;
+    }
+
+    img.valorimgm {
+        display: block;
+        width: 80%;
+    }
+
+    .container-acercade .carousel-caption {
+        padding-block-start: 50px !important;
+        left: 11% !important;
+        width: 100% !important;
+        position: static !important;
+        padding-left: 0 !important;
+    }
+
+    .mision-vision {
+        display: flex;
+        padding-block-start: 37px;
+        gap: 52px;
+        flex-direction: column;
+        align-items: center;
+        padding-block-end: 25px;
+    }
+
+    .mision {
+        width: 80%;
+        height: 100%;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .vision {
+        width: 80%;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .Fortalezas a {
+        font-size: 26px;
+    }
+    .expertos-tecnologias {
+        flex-direction: column;
+        align-items: center;
+    }
+    img.expertos {
+        width: 80%;
+    }
+    .Fortalezas a {
+        text-align: center;
+        font-size: 25px !important;
+    }
+    .text-tecnologias {
+        width: 280px !important;
+        height: 300px;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .Fortalezas {
+        display: none;
+    }
+    
+}

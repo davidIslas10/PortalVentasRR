@@ -5,7 +5,7 @@ import grupoSalinas from "../images/Logotipo_de_Grupo_Salinas.svg";
 import fuller from "../images/FULLER.svg";
 import lenovo from "../images/lenovo-2.svg";
 import kidzania from "../images/KidZania_logo.svg";
-import colombina from "../images/colombina.svg";
+import colombina from "../images/COLOMBINA.svg";
 import baker from "../images/Baker_Tilly_International_Logo.svg";
 import Rimsa from "../images/Rimsa.svg";
 import iws from "../images/IWS.svg";

@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../images/R&R Fondo Blanco.svg";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
+import logo from "../images/Logo.png";
+import "../CSS/footer.css";
+import { FaPhone } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
@@ -13,27 +13,27 @@ const Footer = () => {
 
 
         <footer>
-          <Navbar bg={{ backgroundColor: "#223E69" }} variant="dark">
-            <div className="fotter-blue">
-              <img src={logo} class="logor" />
+          <div className="fotter-blue">
+            <img src={logo} class="logor" />
+            <div className="footer-text">
+              <span>Capitalizamos el conocimiento de <strong> muchos años de experiencia </strong> en la administración de empresas y participación en la implementación de proyectos</span>
             </div>
-            <Container className="justify-content-center">
-              <Nav className="justify-content-center">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="#Service/0">Service</Nav.Link>
-                <Nav.Link href="#">About</Nav.Link>
-                <Nav.Link href="#">Careers</Nav.Link>
-                <Nav.Link href="">Contact</Nav.Link>
-              </Nav>
-            </Container>
-
-            <div className="footer-right">
-              <a href="https://www.instagram.com/rrit_consulting/" class="icon icon-instagram" />
-              <a href="https://mx.linkedin.com/company/r-r-i-t-consulting" class="icon icon-linkedin" />
-              <a href="https://api.whatsapp.com/send/?phone=5215532253411&text=%C2%A1Hola%21+estoy+interesado+en+sus+servicios+&type=phone_number&app_absent=0" class="icon icon-whatsapp" />
+          </div>
+          <div className="footer-right">
+            <div className="up">
+              <a href="https://www.instagram.com/rrit_consulting/" target="_blank" class="icon icon-instagram" />
+              <a href="https://mx.linkedin.com/company/r-r-i-t-consulting"target="_blank" class="icon icon-linkedin" />
+              <a href="https://api.whatsapp.com/send/?phone=5215532253411&text=%C2%A1Hola%21+estoy+interesado+en+sus+servicios+&type=phone_number&app_absent=0" target="_blank" class="icon icon-whatsapp" />
             </div>
-          </Navbar>
+            <div className="down">
+              <a href="tel:+525525386986"><FaPhone/>+52 (55) 2538 6986</a>
+              <a href="mailto:info@itconsultingrr.com"><FiMail/> info@itconsultingrr.com</a>
+          
+            </div> 
+          </div>
         </footer>
+        <div className="footer-foot">NEGOCIOS INTEGRALES CMJ, todos los derechos reservados (c) 2023
+        </div>
       </div>
     </div>
   );
