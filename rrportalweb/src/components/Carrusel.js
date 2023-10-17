@@ -1,98 +1,156 @@
-import React from "react";
-import web from "../images/blog1.png";
-import blog2 from "../images/blog2.png";
-import Comments from "../images/Comments.png";
-import date1 from "../images/Calendario 18 July.svg";
-import date2 from "../images/Calendario 25 July.svg";
-import blog3 from "../images/blog3.png";
-import "../style.css";
-import "../index.css";
+import React from 'react'
+import Carousel from "react-elastic-carousel";
+import Item from "./Item"
+import totalplay from "../images/img/logo_totalplay.png";
+import kidzania from "../images/img/kidzania.png";
+import lenovo from "../images/img/logo_lenovo.png"
+import agua from "../images/img/agua.png"
+import teva from "../images/img/teva.png"
+import unal from "../images/img/unal.png"
+import univar from "../images/img/univar.png"
+import grupo_salinas from "../images/img/grupo_salinas.png"
+import "../CSS/carrusel.css"
 
 const Carrusel = () => {
-  return (
-    <div>
-      <section className="content-pictures">
-        <div className="blog-web">
-          <div className="Web">
-            <div className="W-hover">
-              <img src={web} class="blog-image" />
-              <img src={date1} class="date1" />
-              <div className="banners">
-                <div className="image">
-                  <img src={Comments} class="Comments" />
-                </div>
-                <br></br>
-                <div className="text">
-                  <div className="blog1">
-                    <span>
-                      Tim Berners is considered the "Father of the Web"
-                    </span>
-                  </div>
-                  <div className="blog-web11">
-                    <span>
-                      Since in 1989 he created the World Wide Web, better known
-                      as "www" with which the first web page could be encoded on
-                      August 6, 1991.
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="blog-email">
-          <div className="blog2">
-            <div className="W-hover">
-              <img src={blog2} class="blog-image" />
-              <img src={date2} class="date1" />
-              <div className="banners">
-                <div className="image">
-                  <img src={Comments} class="Comments" />
-                </div>
-                <br></br>
-                <div className="text2">
-                  <div className="blog-web">
-                    <span>E-mails</span>
-                  </div>
-                  <div className="blog-web1">
-                    <span>
-                      About 200 million emails are sent every day, but 70% of
-                      them are spam.
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="blog-mobil">
-          <div className="Web3">
-            <div className="W-hover">
-              <img src={blog3} class="logo" />
-              <img src={date1} class="date1" />
-              <div className="banners">
-                <div className="image">
-                  <img src={Comments} class="Comments" />
-                </div>
-                <br></br>
-                <div className="text3">
-                  <div className="blog-web">
-                    <span>Busquedas en Google </span>
-                  </div>
-                  <div className="blog-web1">
-                    <span>
-                      Only 16% of daily searches on Google are original and have
-                      not been done before.
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-};
+    return (
+        <div className='container-logos-carrusel'>
+            <Carousel
+                itemsToShow={4} // Número de elementos a mostrar en versiones de escritorio
+                pagination={false}
+                enableAutoPlay={true}
+            >
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-diageo" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-totalplay" src={totalplay} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="grupo_salinas" src={grupo_salinas} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-fuller" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-lenovo" src={lenovo} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-kidzania" src={kidzania} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-colombina" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-bakertilly" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-rimsa" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-iws" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-lenovo" src={agua} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-lenovo" src={teva} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-lenovo" src={unal} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-lenovo" src={univar} />
+                    </div>
+                </Item>
+            </Carousel>
+            <Carousel
+                itemsToShow={1} // Número de elementos a mostrar en versiones de escritorio
+                pagination={false}
+                enableAutoPlay={false}
+                className='mobile'
+            
+            >
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-diageo" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-totalplay" src={totalplay} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-totalplay" src={grupo_salinas} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-fuller" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-lenovo" src={lenovo} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <img className="img-kidzania" src={kidzania} />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-colombina" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-bakertilly" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-rimsa" />
+                    </div>
+                </Item>
+                <Item>
+                    <div className="item-clientes">
+                        <span class="icon icon-iws" />
+                    </div>
+                </Item>
+            </Carousel>
 
-export default Carrusel;
+        </div>
+    )
+}
+
+export default Carrusel

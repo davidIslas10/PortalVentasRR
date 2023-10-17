@@ -1,6 +1,7 @@
-.container-banners {
-  background: #f2f2f2;
+.App {
+  BACKGROUND: #f4f4f4;
 }
+
 
 nav.navbar {
   height: 80px;
@@ -8,7 +9,7 @@ nav.navbar {
 }
 
 nav.navbar .container {
-  height: 80px;
+  height: 87px;
   padding: 19px 68px 19px 40px;
   margin: 0;
   width: 100%;
@@ -87,36 +88,34 @@ img.Banner_Home {
 section.menu-service {
   display: none;
   border-radius: 30px;
-  width: 500px;
-  height: 270px;
+  width: 428px;
+  height: 277px;
   background: #fff;
   position: absolute;
   box-shadow: 6px 6px 8px rgb(0 0 0 / 30%);
-  padding: 37px 12px 40px 40px;
+  padding: 20px 24px;
   position: absolute;
-  top: 61px;
+  top: 59px;
+  left: -71px;
 }
 
 li:hover .menu-service {
   display: block;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 30px;
-  column-gap: 20px;
+  row-gap: 0;
+  column-gap: 0;
   flex-direction: column;
   align-content: center;
 }
-
 .navbar .icon {
   font-size: 43px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .nav-link:hover {
-  color: #fff;
-  background: #223e69;
-  border-radius: 5px;
-  box-shadow: 6px 6px 8px rgb(0 0 0 / 30%);
+   border-bottom: 1px solid white;
+   color: #ffffff !important;
 }
 
 li:hover .menu-service {
@@ -131,12 +130,10 @@ a.nav-services.icon.icon-Correo-electrnico {
   font-family: Lato;
   text-decoration: none;
 }
-
 .navbar .icon {
   font-size: 43px;
-  color: #fff;
+  color: #ffffff;
 }
-
 section.menu-service .nav-service {
   width: 50%;
   text-decoration: none;
@@ -184,18 +181,21 @@ span.iconos.icon.icon-project-managments {
   justify-content: space-evenly;
   align-items: center;
 }
-
 img.img-flecha {
   height: 15px;
   width: 15px;
+  left: 98px;
   position: absolute;
   top: -14px;
 }
-
 img.logoIT {
-  height: 190px;
+  display: block;
+  margin: -26px -26px -26px 29vh !important;
+  opacity: 0;
+  padding: 0;
+  transition: all .8s ease-in-out;
+  width: 124px;
 }
-
 .negocios-integrales {
   margin-block-start: -2%;
   padding: 0 0 38px 47px;
@@ -740,7 +740,6 @@ img.logo {
 .images-services figure:hover > img {
   transform: scale(1.3);
 }
-
 .images-services figure .capa h3 {
   color: #fff;
   font-family: "Lato";
@@ -823,12 +822,9 @@ img.teva {
   color: #ffffff;
 }
 
-footer {
-  background: rgb(34, 62, 105);
-}
 
 nav.navbar.navbar-expand.navbar-dark.bg-\[object.Object\] {
-  height: 112px;
+  height: 200px;
 }
 
 .person {
@@ -881,23 +877,21 @@ img.personaje {
   text-align: center;
 }
 
-.fotter-blue img {
-  height: 58px;
-  padding-left: 46px;
+.fotter-blue span {
+  color: #ffff;
+  font-size: 13px;
 }
-
-.footer-right {
-  padding-right: 59px;
-  font-size: 50px;
-  gap: 14px;
-  display: flex;
-}
-
 .footer-right a {
   text-decoration: none;
   color: #fff;
+  font-size: 35px;
 }
-
+.footer-text {
+  width: 305px;
+  display: flex;
+  align-items: center;
+  width: 246px;
+}
 .carrusel-blog img {
   position: absolute;
   top: 544px;
@@ -905,7 +899,8 @@ img.personaje {
 }
 
 li.nav-item a {
-  font-size: 24px;
+  font-size: 15px;
+  padding: 10px !important;
 }
 
 .great {
@@ -1500,13 +1495,7 @@ img.Comments {
     color: #ffffff;
   }
 
-  .position {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 138px;
-    left: 15%;
-  }
+  
 
   .menu-mobile a {
     display: flex;
@@ -1521,13 +1510,7 @@ img.Comments {
     color: #fff;
   }
 
-  img.logomobile {
-    position: absolute;
-    top: 3px;
-    height: 140px;
-    width: 130px;
-    left: 11%;
-  }
+
 
   a.icon.icon-whatsapp:before {
     font-size: 39px;
@@ -1552,8 +1535,8 @@ img.Comments {
   }
 
   .App {
-    background: #f2f2f2;
-    height: 1215px;
+     width: 100%!important;
+
   }
 
   .separation img {
@@ -1973,15 +1956,6 @@ img.Comments {
     align-items: center;
   }
 
-  .footer-right {
-    font-size: 50px;
-    gap: 17px;
-    display: flex;
-    margin-block-start: 32px;
-    position: absolute;
-    top: -17px;
-    padding-left: 58px;
-  }
 
   .great {
     display: flex;
@@ -1992,11 +1966,6 @@ img.Comments {
   .justify-content-center.navbar-nav a {
     font-size: 13px;
   }
-
-  .navbar-left {
-    display: none;
-  }
-
   nav.navbar.navbar-expand.navbar-dark.bg-\[object.Object\] {
     height: 241px;
   }

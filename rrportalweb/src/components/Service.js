@@ -1,186 +1,88 @@
-import React from "react";
-import "../index.css";
-import separation from "../images/separation.png";
-import Sap from "../images/SAP R3.png";
-import Software from "../images/Software Development.png";
-import Analytics from "../images/Data & Analytics.png";
-import uxDesign from "../images/UX UI Design.png";
-import PowerApps from "../images/PowerApps Development.png";
-import Managment from "../images/Project Managment.png";
-import banner3 from "../images/Imagen Home 2.png";
-import nubBanner3 from "../images/Nube-Gris.png";
-import barra from "../images/barra.png";
-import Carousel from "react-bootstrap/Carousel";
+import React, { useState } from "react";
+import "../CSS/services.css";
+import desarrollo from "../images/img/desarrollo.png";
+import data from "../images/img/data.png";
+import erp from "../images/img/erp.jpg";
+import clientes from "../images/img/clientes.jpg";
+import project from "../images/img/project.png";
+import power from "../images/img/power.png";
+import hunter from "../images/img/hunter.png";
+import uxui from "../images/img/uxui.png";
+import triangulo from '../images/img/triangulo.png';
 import { useTranslation } from "react-i18next";
+import Carrusel from "./Carrusel";
+
 
 const Service = () => {
+  const [isAnimationEnabled, setIsAnimationEnabled] = useState(true);
+
+  const toggleAnimation = () => {
+    setIsAnimationEnabled(!isAnimationEnabled);
+  };
+
+  const iconCardsContentClass = `icon-cards__content ${isAnimationEnabled ? 'step-animation' : ''}`;
+
   const [t, i18n] = useTranslation("global");
   return (
-    <div className="services">
-      <div className="separation">
-        <img src={separation} class="logo" />
-      </div>
-      <div className="service-font-red">
-        <span>
-          {t("service.provide")}
-          <br></br>
-          {t("service.success")}
-        </span>
-      </div>
-      <div className="service-font-red-mobile">
-        <span>
-          {t("service.provide")}
-          {t("service.success")}
-        </span>
+    <div className="container-services">
+      <img src={triangulo} class="triangulo" />
+      <div className="services">
+        <a> ——— SERVICIOS ———</a>
+        <h1>Nos mostramos como una empresa abierta a las criticas y al cambio constructivo trabajando de la mano con nuestros socios comerciales</h1>
       </div>
 
-      <Carousel variant="dark">
-        <Carousel.Item>
-          <img  src={Sap} alt="First slide" />
-          <div className="shadow">
-            <h3>SAP R3/</h3>
-            <p>Hana & ABAP resources</p>
+      <figure class="icon-cards mt-7">
+        <div class="icon-cards__content">
+          <div class="icon-cards__item d-flex align-items-center justify-content-center">
+            <div className="shadow"><span>UX-UI</span></div>
+            <img className="img-carrusel" src={uxui} />
           </div>
-          <br></br>
-          <img  src={Software} alt="First slide" />
-          <div className="shadow1">
-            <h3>Software Development</h3>
-            <p>(Web & Mobile)</p>
+          <div class="icon-cards__item d-flex align-items-center justify-content-center">
+            <div className="shadow"><span>ERP Services</span></div>
+            <img className="img-carrusel" src={erp} />
           </div>
-          <Carousel.Caption>
-        
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img  src={Analytics} alt="First slide" />
-          <div className="shadow">
-            <p>Data & Analytics</p>
+          <div class="icon-cards__item d-flex align-items-center justify-content-center">
+            <div className="shadow"><span>Power Apps</span></div>
+            <img className="img-carrusel" src={power} />
           </div>
-          <br></br>
-          <img src={uxDesign} alt="First slide" />
-          <div className="shadow1">
-            <p>UX/UI Design</p>
+          <div class="icon-cards__item d-flex align-items-center justify-content-center">
+            <div className="shadow"><span>Data Scientist</span></div>
+            <img className="img-carrusel" src={data} />
           </div>
-          <Carousel.Caption>
-           
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img  src={PowerApps} alt="First slide" />
-          <div className="shadow">
-            <p>PowerApps Development </p>
+          <div class="icon-cards__item d-flex align-items-center justify-content-center">
+            <div className="shadow"><span>Head Hunter</span></div>
+            <img className="img-carrusel" src={hunter} />
           </div>
-          <br></br>
-          <img  src={Managment} alt="First slide" />
-          <div className="shadow1">
-            <p>Project Managment</p>
+          <div class="icon-cards__item d-flex align-items-center justify-content-center">\
+            <div className="shadow"><span>Desarrollo de Software</span></div>
+            <img className="img-carrusel" src={desarrollo} />
           </div>
-          <Carousel.Caption>
-       
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+          <div class="icon-cards__item d-flex align-items-center justify-content-center">
+            <div className="shadow"><span>Project Management</span></div>
+            <img className="img-carrusel" src={project} />
+          </div>
+        </div>
+      </figure>
 
-      <div className="images-services">
-        <div className="sap">
-          <figure>
-            <img src={Sap} />
-            <div className="shadow">
-              <h3>SAP R3/</h3>
-              <p>Hana & ABAP resources</p>
-            </div>
-            <div class="capa">
-              <h3>SAP R3/</h3>
-              <p>Hana & ABAP resources</p>
-            </div>
-          </figure>
-        </div>
 
-        <div className="develop">
-          <figure>
-            <img src={Software} class="logoSoftware" />
-            <div className="shadow">
-              <h3>Software Development</h3>
-              <p>(Web & Mobile)</p>
-            </div>
-            <div class="capa">
-              <h3>Software Development</h3>
-              <p>(Web & Mobile)</p>
-            </div>
-          </figure>
-        </div>
-        <div className="analytic">
-          <figure>
-            <img src={Analytics} class="logoAnalitics" />
-            <div className="shadow">
-              <p>Data & Analytics</p>
-            </div>
-            <div class="capa">
-              <p>Data & Analytics</p>
-            </div>
-          </figure>
-        </div>
-        <div className="desing">
-          <figure>
-            <img src={uxDesign} class="logoDesign" />
-            <div className="shadow">
-              <p>UX/UI Design</p>
-            </div>
-            <div class="capa">
-              <p>UX/UI Design</p>
-            </div>
-          </figure>
-        </div>
-        <div className="apps">
-          <figure>
-            <img src={PowerApps} class="logoPowerApp" />
-            <div className="shadow">
-              <p>PowerApps Development </p>
-            </div>
-            <div class="capa">
-              <p>PowerApps Development </p>
-            </div>
-          </figure>
-        </div>
-        <div className="manage">
-          <figure>
-            <img src={Managment} class="logoManagment" />
-            <div className="shadow">
-              <p>Project Managment</p>
-            </div>
-            <div class="capa">
-              <p>Project Managment</p>
-            </div>
-          </figure>
+
+      <h2> Nos especializamos en adaptar y personalizar sistemas para satisfacer las necesidades específicas de su negocio. Esto implica la creación de soluciones a medida y trabajamos de la mano con sus equipos de IT en todo el proceso, desde la definición técnica hasta el respaldo en las pruebas y la transición exitosa hacia la producción.
+      </h2>
+
+      {/* /////////////////////////////////CLIENTES/////////////////////// */}
+      <div className="clientes">
+        <a> ——— CLIENTES ———</a>
+        <div className="seccion-clientes">
+          <img className="img-clientes" src={clientes} />
+          <span className="text-clientes">Adoptamos sus políticas internas y contribuimos paralelamente en sus programas sociales para crear
+            una identidad compartida y congruente. Participamos en todas las actividades sociales y culturales
+            que promuevan.</span>
+          <Carrusel />
         </div>
       </div>
 
-      <div className="banner3">
-        <div className="fondo-banner3">
-          <img src={nubBanner3} class="logoManagment" />
-        </div>
-        <div className="service-blue3">
-          <span>{t("service.modalities")}</span>
-        </div>
-        <div className="img-banner3">
-          <img src={banner3} class="logoManagment" />
-        </div>
-        <div className="red1">
-          <span>{t("service.shore")}</span>
-          <img class="img-responsive" src={barra} />
-        </div>
-        <div className="gris1">
-          <span>{t("service.located")}</span>
-        </div>
-        <div className="red2">
-          <span>{t("service.mid")}</span>
-          <img class="img-responsive" src={barra} />
-        </div>
-        <div className="gris2">
-          <span>{t("service.middle")}</span>
-        </div>
-      </div>
     </div>
+
   );
 };
 

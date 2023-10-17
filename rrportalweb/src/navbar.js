@@ -1,4 +1,5 @@
 import React from "react";
+import {logo} from "../src/images/img/logorr.png"
 <link rel="stylesheet" href="../icomoon/style.css"/>
 const Navbar = () => {
   return (

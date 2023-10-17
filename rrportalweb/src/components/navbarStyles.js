@@ -13,9 +13,11 @@ export const NavbarWrapper = styled.nav`
   top: 0;
   left: ${props => (props.open ? "0" : "-100%")};
   width: 65%;
-  height: 90vh;
+  height: 100%;
   z-index: 1;
   transition: left 0.3s linear;
+  overflow-y: scroll;
+ 
 
   @media only screen and (min-width: 624px) {
     flex-direction: row;
