@@ -67,7 +67,7 @@ function navresp({ open }) {
               </Accordion.Item>
             </Accordion>
           </a>
-          <a href="#">Trascender</a>
+          {/* <a href="#">Trascender</a> */}
           <a href="#">Contacto</a>
         </div>
         <img src={LogoMobile} class="logomobile" />

@@ -94,3 +94,19 @@ label.form-label {
     font-size: 22px;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .text-Contacto span {
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    form {
+        width: 87% !important;
+    }
+    
+    .contact {
+        padding-block-start: 2rem;
+    }
+}

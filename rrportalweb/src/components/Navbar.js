@@ -40,7 +40,7 @@ const Navbar = () => {
       <nav class="navbar" style={{ backgroundColor: "#223E69" }}>
         <div class="container">
           <div className="navbar-left">
-            <img src={LogoIT} class="logoIT" />
+            <a href="/"><img src={LogoIT} class="logoIT" /></a>
           </div>
           <div className="navbar-right">
             <ul class="nav justify-content-center">
@@ -77,11 +77,11 @@ const Navbar = () => {
                   {t("banner.navbar.careers")}
                 </a>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a class="nav-link" href="#">
                   Trascender
                 </a>
-              </li>
+              </li> */}
               <li class="nav-item">
                 <a class="nav-link" href="contact">
                   Contacto

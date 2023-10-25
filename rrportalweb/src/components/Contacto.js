@@ -69,19 +69,23 @@ export const Contacto = () => {
                                 id="disabledFieldsetCheck"
                                 label="Acepto terminos"
                             />
-                        </Form.Group>
-
+                        </Form.Group>                    
+                      
+                      <div className='recaptcha'>
 
                         <ReCAPTCHA
-                            sitekey="TU_CLAVE_DEL_SITIO_RECAPTCHA"
+                            token="TOKEN"
+                            expectedAction= "USER_ACTION"
+                            sitekey="6LeZq8koAAAAAE_8I0iFBQBtNYU0IRNeX6itGqGg" // Reemplaza con tu clave de sitio web
                             onChange={handleRecaptchaChange}
-                            className='recaptcha'
                         />
 
+                      
 
 
+                      </div>
 
-
+                        <Button variant="danger">Enviar</Button>{' '}
 
                         {recaptchaValue && (
                             <p>ReCAPTCHA Value: {recaptchaValue}</p>
@@ -89,7 +93,6 @@ export const Contacto = () => {
 
 
 
-                        <Button variant="danger">Enviar</Button>{' '}
                     </fieldset>
                 </Form>
             </div>
