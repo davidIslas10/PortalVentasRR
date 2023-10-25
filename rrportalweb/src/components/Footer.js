@@ -10,8 +10,6 @@ const Footer = () => {
   return (
     <div>
       <div className="home3">
-
-
         <footer>
           <div className="fotter-blue">
             <img src={logo} class="logor" />
@@ -28,7 +26,6 @@ const Footer = () => {
             <div className="down">
               <a href="tel:+525525386986"><FaPhone/>+52 (55) 2538 6986</a>
               <a href="mailto:info@itconsultingrr.com"><FiMail/> info@itconsultingrr.com</a>
-          
             </div> 
           </div>
         </footer>

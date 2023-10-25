@@ -28,37 +28,37 @@ function navresp({ open }) {
                     </li>
                     <li class="nav-item">
                     <span className="iconos icon icon-data-analytics"/>
-                      <a class="nav-link dark" href="/">
+                      <a class="nav-link dark" href="/DataScientist">
                         Data Scientist
                       </a>
                     </li>
                     <li class="nav-item">
                     <span className="iconos icon icon-sap-r3"/>
-                      <a class="nav-link dark" href="/">
+                      <a class="nav-link dark" href="/ERP">
                         ERP Service
                       </a>
                     </li>
                     <li class="nav-item">
                     <span className="iconos icon icon-project-managments"/>
-                      <a class="nav-link dark" href="/">
+                      <a class="nav-link dark" href="/Project-Management">
                         Project Management
                       </a>
                     </li>
                     <li class="nav-item">
                     <span className="iconos icon icon-powerapps"/>
-                      <a class="nav-link dark" href="/">
+                      <a class="nav-link dark" href="/Power-Apps">
                         Power Apps
                       </a>
                     </li>
                     <li class="nav-item">
                     <span className="iconos icon icon-sap-r3"/>
-                      <a class="nav-link dark" href="/">
+                      <a class="nav-link dark" href="/Head-Hunter">
                         Head Hunter
                       </a>
                     </li>
                     <li class="nav-item">
                     <span className="iconos icon icon-Icono-ux"/>
-                      <a class="nav-link dark" href="/">
+                      <a class="nav-link dark" href="/UxUi">
                         UX-UI
                       </a>
                     </li>

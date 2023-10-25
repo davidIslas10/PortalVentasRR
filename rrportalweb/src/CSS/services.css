@@ -112,14 +112,6 @@ img.img-carrusel {
   width: 781px;
 }
 
-.container-logos-carrusel {
-  width: 70%;
-  background: red;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .shadow {
   background: #223e6994;

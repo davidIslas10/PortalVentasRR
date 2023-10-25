@@ -2,13 +2,18 @@ import React, { Children,useState } from "react";
 import { createBrowserRouter , RouterProvider } from "react-router-dom";
 import Banner from "./components/Banner";
 import Service from "./components/Service";
-import Services from "./components/Services";
 import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Acercade } from "./components/Acercade";
 import { Desarrollosoftware } from "./components/Desarrollosoftware";
 import { DataScientist } from "./components/DataScientist";
+import { Erp } from "./components/Erp";
+import { Project_M } from "./components/Project_M";
+import { PowerApps } from "./components/PowerApps";
+import { HeadHunter } from "./components/HeadHunter";
+import { UxUi } from "./components/UxUi";
+import { Contacto } from "./components/Contacto";
 
 
 const router = createBrowserRouter([
@@ -25,11 +30,7 @@ const router = createBrowserRouter([
     ), 
 
   },
-    {
-      path: "/service/:serviceid",
-      element: <Services/>,
-      
-    }, 
+    
     {
       path: "/Acercade",
       element: <Acercade/>,
@@ -42,8 +43,31 @@ const router = createBrowserRouter([
       path: "/DataScientist",
       element: <DataScientist/>,
     },
-
-]);
+    {
+      path: "/ERP",
+      element: <Erp/>,
+    },
+    {
+      path: "/Project-Management",
+      element: <Project_M/>,
+    },
+    {
+      path: "/Power-Apps",
+      element: <PowerApps/>,
+    },
+    {
+      path: "/Head-Hunter",
+      element: <HeadHunter/>,
+    },
+    {
+      path: "/UxUi",
+      element: <UxUi/>,
+    },
+    {
+      path: "/Contact",
+      element: <Contacto/>,
+    },
+  ]);
 
 function App() {
 

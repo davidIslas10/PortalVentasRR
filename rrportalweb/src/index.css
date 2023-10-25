@@ -448,16 +448,6 @@ img.logo {
   z-index: 3;
 }
 
-.software span {
-  position: absolute;
-  font-size: 18px;
-  font-family: "Lato";
-  color: #fff;
-  top: 255px;
-  left: 605px;
-  z-index: 2;
-}
-
 .analytics span {
   position: absolute;
   font-size: 18px;

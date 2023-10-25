@@ -53,8 +53,9 @@ export const Desarrollosoftware = () => {
                     <span>Nos aseguramos de seguir buenas prácticas de desarrollo, utilizar metodologías y estándares reconocidos y realizar pruebas exhaustivas para entregar un producto final confiable y de calidad.</span>
                 </div>
             </div>
-
-            <Carrusel />
+            <div className='software'>
+                <Carrusel />
+            </div>
 
             <div className='contactanos'>
                 <span>100% de <strong>nuestros clientes</strong> se quedan con nosotros

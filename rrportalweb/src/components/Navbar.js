@@ -63,17 +63,17 @@ const Navbar = () => {
 
                   <Dropdown.Menu>
                     <Dropdown.Item href="/Desarrollo-software"><span className="iconos icon icon-software-development" />Desarrollo de Software</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2"><span className="iconos icon icon-data-analytics" />Data Scientist</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3"><span className="iconos icon icon-sap-r3" />ERP Service</Dropdown.Item>
-                    <Dropdown.Item href="#/action-4"><span className="iconos icon icon-project-managments" />Project Management</Dropdown.Item>
-                    <Dropdown.Item href="#/action-5"><span className="iconos icon icon-powerapps" />Power Apps</Dropdown.Item>
-                    <Dropdown.Item href="#/action-6"><img className="hunter-m" src={headhunter} />Head Hunter</Dropdown.Item>
-                    <Dropdown.Item href="#/action-7"><span className="iconos icon icon-Icono-ux" />UX-UI</Dropdown.Item>
+                    <Dropdown.Item href="/DataScientist"><span className="iconos icon icon-data-analytics" />Data Scientist</Dropdown.Item>
+                    <Dropdown.Item href="/ERP"><span className="iconos icon icon-sap-r3" />ERP Service</Dropdown.Item>
+                    <Dropdown.Item href="/Project-Management"><span className="iconos icon icon-project-managments" />Project Management</Dropdown.Item>
+                    <Dropdown.Item href="/Power-Apps"><span className="iconos icon icon-powerapps" />Power Apps</Dropdown.Item>
+                    <Dropdown.Item href="/Head-Hunter"><img className="hunter-m" src={headhunter} />Head Hunter</Dropdown.Item>
+                    <Dropdown.Item href="/UxUi"><span className="iconos icon icon-Icono-ux" />UX-UI</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/">
                   {t("banner.navbar.careers")}
                 </a>
               </li>
@@ -83,7 +83,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="contact">
                   Contacto
                 </a>
               </li>
