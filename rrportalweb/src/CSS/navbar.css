@@ -37,11 +37,11 @@ img.hunter-m {
 }
 
 .container-navbar {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 100 !important;
-}
+    height: 80px;
+} 
 
 ul.social-network.social-circle svg:hover {
     color: rgba(255, 255, 255, 1) !important;
@@ -95,13 +95,15 @@ ul.social-network.social-circle svg {
 }
 
 nav.navbar .container {
-    height: 80px;
+    height: 100%!important;
     width: 100%;
     max-width: 100%;
     display: flex;
     align-content: center;
     align-items: center;
+    position: absolute;
 }
+
 
 img.logoIT {
     width: 124px;
@@ -124,13 +126,14 @@ body {
 }
 
 nav.navbar {
-    height: 80px;
+    height: 100% !important;
     padding: 0;
     transition: all 0.8s ease-in-out;
     display: flex;
- 
     align-items: center;
+    align-content: center;
 }
+
 
 
 

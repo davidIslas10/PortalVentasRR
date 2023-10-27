@@ -21,16 +21,23 @@
 .banner-text h1 {
     font-size: 14px;
     color: black;
+    padding: 0 !important;
+    margin-block-end: 5%;
+    text-align: justify;
 }
 .banner-text p {
-    font-size: 19px;
-    font-weight: 800;
+    font-size: 24px;
+    width: 460px;
+    font-weight: 900;
     color: #bb2828;
+    line-height: 26px;
+    font-family: 'Lato';
 }
+
 .container-desarrollo ul {
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 8px;
 }
 img.img-ds {
     width: 100px;
@@ -39,7 +46,7 @@ img.img-ds {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 65px;
     padding-block-end: 30px;
 }
 img.desarrollo_body {
@@ -54,16 +61,13 @@ img.desarrollo_m {
     width: 50%;
     padding-block-start: 3%;
 }
+
 .banner-text span {
     color: #243E69 !important;
-    font-size: 19px !important;
+    font-size: 24px !important;
     font-weight: 700 !important;
-}
-.banner-text span {
-    color: #243E69 !important;
-    font-size: 19px !important;
-    font-weight: 700 !important;
-    width: 556px;
+    width: 582px;
+    margin: -8px;
 }
 .Ds-1 {
     width: 300px;
@@ -76,16 +80,21 @@ img.desarrollo_m {
 .Ds-1 span {
     text-align: center;
 }
-.desarrollo-sofware .container-logos-carrusel {
-    position: static;
-    padding: 0!important;
-    margin: 0 158px!important;
+.software {
+    display: flex;
+    justify-content: center;
 }
-.desarrollo-sofware .container-logos-carrusel {
-    position: static;
+
+.software .container-logos-carrusel {
+    position: static !important;
     padding: 0!important;
-    margin: 0 153px!important;
+    margin: 4% 4%!important;
+    width: 75% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .contactanos {
     display: flex;
@@ -126,6 +135,7 @@ button a {
     color: white;
     text-decoration: none;
 }
+
 @media (max-width: 768px) {
     .body-desarrollo {
         width: 100%;
@@ -159,7 +169,8 @@ button a {
     
     .banner-text p {
         text-align: center;
-        padding: 0 25px;
+        font-size: 18px;
+        width: 98%;
     }
     .banner-text span {
         color: #243E69 !important;
@@ -169,12 +180,20 @@ button a {
         padding: 0 15px;
         width: 100% !important;
     }
+    .banner-text h1 {
+        font-size: 12px;
+        color: black;
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+    }
     .body-desarrollo {
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        gap: 25px;
         padding-block-start: 20px;
     }
     .contactanos {

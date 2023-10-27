@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import data_portada from "../images/img/DataS.png"
-import desarrollo from "../images/img/Desarrollo_sofware.png"
 import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
-import desarrollo_m from "../images/img/desarrollo software.jpg"
 import Carrusel from './Carrusel'
+import data_portada from "../images/img/DataS.webp"
+import desarrollo_m from "../images/img/data_cientist.jpg"
 
 export const DataScientist = () => {
     return (
@@ -17,7 +16,7 @@ export const DataScientist = () => {
                 <div class="banner-desarrollo">
                     <div className="banner-text">
                         <img src={desarrollo_m} class="portadam" />
-                        <h3>Data Scientist</h3>
+                        <h3>Data Science</h3>
                         <p>ANÁLISIS Y GESTIÓN DE DATOS</p>
                         <h1>
                             Nuestro servicio de ciencia de datos se destaca por nuestra experiencia,
@@ -40,19 +39,21 @@ export const DataScientist = () => {
             <div className='body-desarrollo'>
                 <div className='Ds-1'>
                     <img src={uno} class="img-ds" />
-                    <span>Contamos con un equipo de desarrollo altamente experimentado y con amplios conocimientos. Ofrecemos soluciones innovadoras, eficientes y de calidad que cumplan con los requisitos y expectativas del cliente.</span>
+                    <span>Identificación de relaciones, patrones y anomalías que pueden ser utilizados para mejorar la toma de decisiones y la comprensión del negocio.</span>
                 </div>
                 <div className='Ds-1'>
                     <img src={dos} class="img-ds" />
-                    <span>Servicio de desarrollo de software único que se adapta a los requisitos del cliente y proporcionará soluciones a medida que se ajusten a sus necesidades particulares.</span>
+                    <span>Técnicas de aprendizaje automático y modelado estadístico para crear modelos predictivos que permitan predecir comportamientos futuros o resultados basados en datos históricos.</span>
                 </div>
                 <div className='Ds-1'>
                     <img src={tres} class="img-ds" />
-                    <span>Nos aseguramos de seguir buenas prácticas de desarrollo, utilizar metodologías y estándares reconocidos y realizar pruebas exhaustivas para entregar un producto final confiable y de calidad.</span>
+                    <span>Optimizar procesos, recursos y tomar decisiones más eficientes. Esto implica el uso de algoritmos y técnicas avanzadas para encontrar la mejor solución posible dado un conjunto de restricciones y objetivos.</span>
                 </div>
             </div>
 
-            <Carrusel />
+            <div className='software'>
+                <Carrusel />
+            </div>
 
             <div className='contactanos'>
                 <span>100% de <strong>nuestros clientes</strong> se quedan con nosotros

@@ -64,7 +64,7 @@ img.portadam {
     background: #bcb8b81c;
     display: flex;
     justify-content: space-between;
-    height: 77vh;
+    height: 70vh;
 }
 
 .text-portada {
@@ -98,7 +98,7 @@ img.portadam {
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     img.portada {
         display: none;
     }
