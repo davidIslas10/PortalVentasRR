@@ -11,9 +11,6 @@ import linkedin from "../images/img/linkedin.png";
 import whatsapp from "../images/img/whatsapp.png";
 import instagram from "../images/img/instagram.png";
 import "../CSS/navbar.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import Dropdown from 'react-bootstrap/Dropdown';
 function useActive() {
   const [active, setActive] = useState(false);
@@ -63,7 +60,7 @@ const Navbar = () => {
 
                   <Dropdown.Menu>
                     <Dropdown.Item href="/Desarrollo-software"><span className="iconos icon icon-software-development" />Desarrollo de Software</Dropdown.Item>
-                    <Dropdown.Item href="/DataScientist"><span className="iconos icon icon-data-analytics" />Data Scientist</Dropdown.Item>
+                    <Dropdown.Item href="/DataScientist"><span className="iconos icon icon-data-analytics" />Data Science</Dropdown.Item>
                     <Dropdown.Item href="/ERP"><span className="iconos icon icon-sap-r3" />ERP Service</Dropdown.Item>
                     <Dropdown.Item href="/Project-Management"><span className="iconos icon icon-project-managments" />Project Management</Dropdown.Item>
                     <Dropdown.Item href="/Power-Apps"><span className="iconos icon icon-powerapps" />Power Apps</Dropdown.Item>
@@ -73,7 +70,7 @@ const Navbar = () => {
                 </Dropdown>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/contact">
                   {t("banner.navbar.careers")}
                 </a>
               </li>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import desarrollo from "../images/img/Desarrollo_sofware.png"
+import desarrollo from "../images/img/Desarrollo_sofware.webp"
 import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
@@ -60,7 +60,7 @@ export const Desarrollosoftware = () => {
             <div className='contactanos'>
                 <span>100% de <strong>nuestros clientes</strong> se quedan con nosotros
                     después del primer proyecto</span>
-                <button ><a href="https://wa.me/5525386986">Contáctanos Ahora!</a></button>
+                <button ><a href="https://wa.me/5525386986">¡Contáctanos Ahora!</a></button>
 
             </div>
 

@@ -1,11 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import data_portada from "../images/img/DataS.png"
 import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
-import Erps from "../images/img/Erp_D.png"
+import Erps from "../images/img/Erp_D.webp"
 import Erpm from "../images/img/erp.jpg"
 import Carrusel from './Carrusel'
 import "../CSS/software.css"
@@ -20,7 +19,7 @@ export const Erp = () => {
                     <div className="banner-text">
                         <img src={Erpm} class="portadam" />
                         <h3>ERP Services</h3>
-                        <p>IMPLEMENTACIÓN DE SOFTWARE Y DESARROLLO DEPROYECTOS</p>
+                        <p>IMPLEMENTACIÓN DE SOFTWARE Y DESARROLLO DE PROYECTOS</p>
                         <h1>
                             Asignación de consultores altamente capacitados en los principales ERP a
                             nivel mundial SAP, ORACLE, JD EDWARS. Nuestros servicios de gestión de

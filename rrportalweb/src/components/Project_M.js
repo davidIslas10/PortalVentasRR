@@ -1,11 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import data_portada from "../images/img/DataS.png"
 import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
-import Erps from "../images/img/Project_M.png"
+import Erps from "../images/img/Project_M.webp"
 import Erpm from "../images/img/project-managment.jpg"
 import Carrusel from './Carrusel'
 import "../CSS/software.css"
@@ -13,7 +12,6 @@ import "../CSS/software.css"
 export const Project_M = () => {
     return (
         <div>
-
             <Navbar />
             <div className="container-desarrollo">
                 <div class="banner-desarrollo">
@@ -34,7 +32,6 @@ export const Project_M = () => {
                 </div>
                 <div className="portada">
                     <img src={Erps} class="portada" />
-
                 </div>
             </div>
             <div className='body-desarrollo'>

@@ -26,9 +26,10 @@ img.valorimgm {
 .container-mision-vision {
     display: flex;
     flex-direction: column;
-    margin-block-start: -150px;
+    margin-block-start: -84px;
     padding-left: 11%;
 }
+
 
 span.valores {
     font-size: 38px;
@@ -213,7 +214,7 @@ img.expertos {
     color: #747474;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
     .container-acercade img.portada {
         width: 100% !important;
         height: 63vh !important;
@@ -223,6 +224,34 @@ img.expertos {
         padding-block-start: 100px !important;
         left: 11% !important;
         width: 442px !important;
+    }
+    .container-mision-vision {
+        display: flex;
+        flex-direction: column;
+        margin-block-start: -229px;
+        padding-left: 11%;
+    }
+    span.icon.icon-fuller {
+        font-size: 72px;
+        font-weight: 500;
+        color: #223e69f7;
+    }
+    
+    span.icon.icon-fuller {
+        font-size: 64px;
+        font-weight: 500;
+        color: #223e69f7;
+    }
+  
+    .item-clientes img {
+        width: 200px !important ;
+    }
+    img.img-kidzania {
+        width: 160px !important;
+    }
+      
+    img.grupo_salinas {
+        width: 150px !important;
     }
 }
 

@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <div className="down">
               <a href="tel:+525525386986"><FaPhone/>+52 (55) 2538 6986</a>
-              <a href="mailto:info@itconsultingrr.com"><FiMail/> info@itconsultingrr.com</a>
+              <a href="mailto:admin@itconsultingrr.com"><FiMail/> admin@itconsultingrr.com</a>
             </div> 
           </div>
         </footer>

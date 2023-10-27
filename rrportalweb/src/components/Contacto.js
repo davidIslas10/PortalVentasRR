@@ -32,7 +32,7 @@ export const Contacto = () => {
                 <span>100% de <strong>nuestros clientes</strong> se quedan con nosotros después del primer proyecto</span>
                 <div className="down">
                     <a href="tel:+525525386986"><FaPhone />+52 (55) 2538 6986</a>
-                    <a href="mailto:info@itconsultingrr.com"><FiMail /> info@itconsultingrr.com</a>
+                    <a href="mailto:admin@itconsultingrr.com"><FiMail /> admin@itconsultingrr.com</a>
                 </div>
             </div>
             <div className='contact'>
@@ -69,21 +69,21 @@ export const Contacto = () => {
                                 id="disabledFieldsetCheck"
                                 label="Acepto terminos"
                             />
-                        </Form.Group>                    
-                      
-                      <div className='recaptcha'>
+                        </Form.Group>
 
-                        <ReCAPTCHA
+                        <div className='recaptcha'>
+
+                            <ReCAPTCHA
                             token="TOKEN"
                             expectedAction= "USER_ACTION"
                             sitekey="6LeZq8koAAAAAE_8I0iFBQBtNYU0IRNeX6itGqGg" // Reemplaza con tu clave de sitio web
                             onChange={handleRecaptchaChange}
                         />
 
-                      
+                         
 
 
-                      </div>
+                        </div>
 
                         <Button variant="danger">Enviar</Button>{' '}
 

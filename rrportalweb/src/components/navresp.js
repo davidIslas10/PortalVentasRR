@@ -29,7 +29,7 @@ function navresp({ open }) {
                     <li class="nav-item">
                     <span className="iconos icon icon-data-analytics"/>
                       <a class="nav-link dark" href="/DataScientist">
-                        Data Scientist
+                        Data Science
                       </a>
                     </li>
                     <li class="nav-item">
