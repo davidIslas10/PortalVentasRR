@@ -1,21 +1,30 @@
-.container-acercade .container-banners {
-    background: none;
-}
 
 .container-acercade .carousel-caption {
-    padding-block-start: 50px !important;
-    left: 11% !important;
-    width: 442px !important;
-}
+    left: 10% !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
 
+}
+.triangulo-banner {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.container-acercade .container-banners {
+    height: 77vh;
+}
 .container-acercade .text-portada h1 {
     text-align: justify;
 }
 
 .container-acercade img.portada {
     width: 100% !important;
-    height: 83vh !important;
+    height: 100% !important;
 }
+
 
 .container-acercade .carousel-caption p {
     padding: 10px 0px;
@@ -26,13 +35,12 @@ img.valorimgm {
 .container-mision-vision {
     display: flex;
     flex-direction: column;
-    margin-block-start: -84px;
     padding-left: 11%;
 }
 
 
 span.valores {
-    font-size: 38px;
+    font-size: 43px;
     color: #223e69;
     font-family: var(--bs-body-font-family);
     font-weight: 700;
@@ -40,7 +48,7 @@ span.valores {
 }
 
 img.valorimg {
-    width: 70%;
+    width: 85%;
 }
 .mision-vision {
     display: flex;
@@ -215,43 +223,13 @@ img.expertos {
 }
 
 @media (min-width: 1400px) {
-    .container-acercade img.portada {
-        width: 100% !important;
-        height: 63vh !important;
-    }
-
     .container-acercade .carousel-caption {
-        padding-block-start: 100px !important;
+        
         left: 11% !important;
-        width: 442px !important;
+        width: 80% !important;
     }
-    .container-mision-vision {
-        display: flex;
-        flex-direction: column;
-        margin-block-start: -229px;
-        padding-left: 11%;
-    }
-    span.icon.icon-fuller {
-        font-size: 72px;
-        font-weight: 500;
-        color: #223e69f7;
-    }
-    
-    span.icon.icon-fuller {
-        font-size: 64px;
-        font-weight: 500;
-        color: #223e69f7;
-    }
-  
-    .item-clientes img {
-        width: 200px !important ;
-    }
-    img.img-kidzania {
-        width: 160px !important;
-    }
-      
-    img.grupo_salinas {
-        width: 150px !important;
+    .container-acercade .text-portada h3 {
+        font-size: 58px !important;
     }
 }
 

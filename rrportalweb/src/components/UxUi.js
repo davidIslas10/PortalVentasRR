@@ -4,8 +4,8 @@ import microsfot from "../images/img/Microsoft_logo.png"
 import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
-import Erps from "../images/img/UxUiP.webp"
-import Erpm from "../images/img/ux-ui.webp"
+import Erps from "../images/img/UxUiP.png"
+import Erpm from "../images/img/ux-ui.png"
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Carrusel from './Carrusel'
