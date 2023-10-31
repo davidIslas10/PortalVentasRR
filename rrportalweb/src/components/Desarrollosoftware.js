@@ -5,6 +5,7 @@ import desarrollo from "../images/img/Desarrollo_sofware.png"
 import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
+import triangulo from '../images/img/triangulo.png';
 import desarrollo_m from "../images/img/desarrollo software.jpg"
 import "../CSS/software.css"
 import Carrusel from './Carrusel'
@@ -38,6 +39,9 @@ export const Desarrollosoftware = () => {
                     <img src={desarrollo} class="portada" />
 
                 </div>
+            </div>
+            <div className="triangulo-banner">
+                <img src={triangulo} class="triangulo" />
             </div>
             <div className='body-desarrollo'>
                 <div className='Ds-1'>

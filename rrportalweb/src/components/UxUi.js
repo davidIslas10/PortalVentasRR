@@ -8,18 +8,20 @@ import Erps from "../images/img/UxUiP.png"
 import Erpm from "../images/img/ux-ui.png"
 import Navbar from './Navbar'
 import Footer from './Footer'
+import triangulo from '../images/img/triangulo.png';
 import Carrusel from './Carrusel'
+import "../CSS/uxui.css"
 
 export const UxUi = () => {
     return (
-        <div>
+        <div className='uxui'>
             <Navbar />
             <div className="container-desarrollo">
                 <div class="banner-desarrollo">
                     <div className="banner-text">
                         <img src={Erpm} class="portadam" />
                         <h3>UX/UI</h3>
-                        <p>EXPERIENCIA DE USUARIO / INTERFAZ DE USUARIO</p>
+                        <p>Experiencia de usuario / interfaz de usuario</p>
                         <h1>
                             Al utilizar nuestros servicios de Diseño UX/UI, los clientes pueden esperar resultados
                             que incluyen una mejora de la experiencia del usuario, aumento de la satisfacción del
@@ -37,6 +39,9 @@ export const UxUi = () => {
                     <img src={Erps} class="portada" />
 
                 </div>
+            </div>
+            <div className="triangulo-banner">
+                <img src={triangulo} class="triangulo" />
             </div>
             <div className='body-desarrollo'>
                 <div className='Ds-1'>

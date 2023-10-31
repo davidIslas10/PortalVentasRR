@@ -1,0 +1,9 @@
+.banner-text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Powerapps .triangulo-banner {
+    width: 100%;
+}

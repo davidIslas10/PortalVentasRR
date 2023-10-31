@@ -5,19 +5,22 @@ import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
 import Carrusel from './Carrusel'
+import triangulo from '../images/img/triangulo.png';
 import data_portada from "../images/img/DataS.png"
 import desarrollo_m from "../images/img/data_cientist.jpg"
+import "../CSS/datascientis.css"
+
 
 export const DataScientist = () => {
     return (
-        <div>
+        <div className='DataScientist'>
             <Navbar />
             <div className="container-desarrollo">
                 <div class="banner-desarrollo">
                     <div className="banner-text">
                         <img src={desarrollo_m} class="portadam" />
                         <h3>Data Science</h3>
-                        <p>ANÁLISIS Y GESTIÓN DE DATOS</p>
+                        <p>Análisis y gestíon de datos</p>
                         <h1>
                             Nuestro servicio de ciencia de datos se destaca por nuestra experiencia,
                             enfoque personalizado, análisis profundo, visualización efectiva,
@@ -35,6 +38,9 @@ export const DataScientist = () => {
                     <img src={data_portada} class="portada" />
 
                 </div>
+            </div>
+            <div className="triangulo-banner">
+                <img src={triangulo} class="triangulo" />
             </div>
             <div className='body-desarrollo'>
                 <div className='Ds-1'>

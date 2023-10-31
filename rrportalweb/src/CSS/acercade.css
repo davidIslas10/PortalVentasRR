@@ -36,6 +36,7 @@ img.valorimgm {
     display: flex;
     flex-direction: column;
     padding-left: 11%;
+    background-attachment: #fcf8f8eb;
 }
 
 
@@ -283,11 +284,14 @@ img.expertos {
     }
 
     .container-acercade .carousel-caption {
-        padding-block-start: 50px !important;
-        left: 11% !important;
-        width: 100% !important;
-        position: static !important;
-        padding-left: 0 !important;
+        -webkit-padding-before: 50px!important;
+        left: 11%!important;
+        padding-block-start: 50px!important;
+        padding-left: 0!important;
+        position: static!important;
+        width: 100%!important;
+        display: flex;
+        align-items: center;
     }
 
     .mision-vision {

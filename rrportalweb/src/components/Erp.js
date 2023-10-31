@@ -7,19 +7,20 @@ import tres from "../images/img/3.png"
 import Erps from "../images/img/Erp_D.png"
 import Erpm from "../images/img/erp.jpg"
 import Carrusel from './Carrusel'
-import "../CSS/software.css"
+import triangulo from '../images/img/triangulo.png';
+import "../CSS/Erp.css"
 
 
 export const Erp = () => {
     return (
-        <div>
+        <div className='Erp'>
             <Navbar />
             <div className="container-desarrollo">
                 <div class="banner-desarrollo">
                     <div className="banner-text">
                         <img src={Erpm} class="portadam" />
                         <h3>ERP Services</h3>
-                        <p>IMPLEMENTACIÓN DE SOFTWARE Y DESARROLLO DE PROYECTOS</p>
+                        <p>Implementación de software y desarrollo de proyectos</p>
                         <h1>
                             Asignación de consultores altamente capacitados en los principales ERP a
                             nivel mundial SAP, ORACLE, JD EDWARS. Nuestros servicios de gestión de
@@ -35,6 +36,9 @@ export const Erp = () => {
                     <img src={Erps} class="portada" />
 
                 </div>
+            </div>
+            <div className="triangulo-banner">
+                <img src={triangulo} class="triangulo" />
             </div>
             <div className='body-desarrollo'>
                 <div className='Ds-1'>

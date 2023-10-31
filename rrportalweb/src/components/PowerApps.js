@@ -9,16 +9,18 @@ import Erpm from "../images/img/power apps.jpg"
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Carrusel from './Carrusel'
+import triangulo from '../images/img/triangulo.png';
+import "../CSS/PowerApps.css"
 export const PowerApps = () => {
     return (
-        <div>
+        <div className='Powerapps'>
             <Navbar />
             <div className="container-desarrollo">
                 <div class="banner-desarrollo">
                     <div className="banner-text">
                         <img src={Erpm} class="portadam" />
                         <h3>Power Apps</h3>
-                        <p>APLICACIONES PERSONALIZADAS Y SOLUCIONES EFICIENTES</p>
+                        <p>Aplicaciones personalizadas y soluciones eficientes</p>
                         <h1>
                             Nuestro servicio de Power Apps destaca por nuestra experiencia y
                             conocimiento profundo, la capacidad de personalización y adaptabilidad,
@@ -35,6 +37,9 @@ export const PowerApps = () => {
                     <img src={Erps} class="portada" />
 
                 </div>
+            </div>
+            <div className="triangulo-banner">
+                <img src={triangulo} class="triangulo" />
             </div>
             <div className='body-desarrollo'>
                 <div className='Ds-1'>

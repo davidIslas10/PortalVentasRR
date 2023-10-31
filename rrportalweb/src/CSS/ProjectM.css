@@ -1,0 +1,8 @@
+.projectM .banner-text {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.projectM .triangulo-banner {
+    width: 100%;
+}

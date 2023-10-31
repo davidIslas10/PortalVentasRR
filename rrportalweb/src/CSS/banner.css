@@ -69,10 +69,10 @@ img.portada {
 }
 
 .container-banners {
-    background: #bcb8b81c;
+    background: #eeeded;
     display: flex;
-    justify-content: space-between;
     height: 70vh;
+    justify-content: space-between;
 }
 .portada {
     width: 100%;
@@ -141,6 +141,9 @@ img.portada {
     .carousel-inner img {
         width: 100%;
         height: 100%;
+    }
+    .container-desarrollo {
+        display: block !important;
     }
     img.portadam {
         display: block;

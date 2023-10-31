@@ -1,0 +1,12 @@
+.DataScientist .triangulo-banner {
+    width: 100%;
+}
+.DataScientist .banner-text h1 {
+    margin-block-end: 5%;
+}
+
+.DataScientist .banner-text {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}

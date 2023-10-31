@@ -7,18 +7,19 @@ import tres from "../images/img/3.png"
 import Erps from "../images/img/Project_M.png"
 import Erpm from "../images/img/project-managment.jpg"
 import Carrusel from './Carrusel'
-import "../CSS/software.css"
+import triangulo from '../images/img/triangulo.png';
+import "../CSS/ProjectM.css"
 
 export const Project_M = () => {
     return (
-        <div>
+        <div className='projectM'>
             <Navbar />
             <div className="container-desarrollo">
                 <div class="banner-desarrollo">
                     <div className="banner-text">
                         <img src={Erpm} class="portadam" />
                         <h3>Project Managment</h3>
-                        <p>ACCESO Y TALENTO ALTAMENTE CLASIFICADO</p>
+                        <p>Acceso y talento altamente clasificado</p>
                         <h1>
                             A través de nuestros servicios de Project Management, ayudamos a los
                             clientes a resolver problemas, satisfacer necesidades y alcanzar objetivos
@@ -33,6 +34,9 @@ export const Project_M = () => {
                 <div className="portada">
                     <img src={Erps} class="portada" />
                 </div>
+            </div>
+            <div className="triangulo-banner">
+                <img src={triangulo} class="triangulo" />
             </div>
             <div className='body-desarrollo'>
                 <div className='Ds-1'>

@@ -8,20 +8,19 @@ import Erps from "../images/img/Head_hunter.png"
 import Erpm from "../images/img/head hunter.jpg"
 import Navbar from './Navbar'
 import Footer from './Footer'
+import triangulo from '../images/img/triangulo.png';
 import Carrusel from './Carrusel'
 
 export const HeadHunter = () => {
     return (
-        <div>
+        <div className='HeadHunter'>
             <Navbar />
             <div className="container-desarrollo">
                 <div class="banner-desarrollo">
                     <div className="banner-text">
                         <img src={Erpm} class="portadam" />
                         <h3>Head Hunter</h3>
-                        <p>TOMAMOS EN CUENTA LA FORMACIÓN QUE POSEEN
-                            LOS CANDIDATOS COMO EL VALOR QUE PODRÍAN
-                            APORTAR A LA ORGANIZACIÓN</p>
+                        <p>Tomamos en cuenta la formación que poseen los candidatos como el valor que podrían aportar a la organización.</p>
                         <h1>
                             Nos distinguimos por nuestra amplia base de datos de talentos,
                             herramientas de búsqueda avanzadas, evaluaciones de habilidades,
@@ -36,6 +35,9 @@ export const HeadHunter = () => {
                     <img src={Erps} class="portada" />
 
                 </div>
+            </div>
+            <div className="triangulo-banner">
+                <img src={triangulo} class="triangulo" />
             </div>
             <div className='body-desarrollo'>
                 <div className='Ds-1'>
