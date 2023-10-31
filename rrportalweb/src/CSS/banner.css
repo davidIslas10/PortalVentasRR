@@ -85,6 +85,7 @@ img.portada {
 
 .text-portada h3 {
     font-size: 38px !important;
+    width: 144%;
 }
 .container-menu-mobile {
     display: none;
