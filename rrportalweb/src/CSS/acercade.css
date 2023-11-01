@@ -1,21 +1,22 @@
-
 .container-acercade .carousel-caption {
     left: 10% !important;
-    width: 100% !important;
+    width: 90% !important;
     display: flex;
     justify-content: center;
-
 }
+
 .triangulo-banner {
-    width: 85%;
+    width: 88%;
     display: flex;
     justify-content: center;
     padding: 0 !important;
     margin: 0 !important;
 }
+
 .container-acercade .container-banners {
     height: 77vh;
 }
+
 .container-acercade .text-portada h1 {
     text-align: justify;
 }
@@ -29,9 +30,11 @@
 .container-acercade .carousel-caption p {
     padding: 10px 0px;
 }
+
 img.valorimgm {
     display: none;
 }
+
 .container-mision-vision {
     display: flex;
     flex-direction: column;
@@ -51,12 +54,14 @@ span.valores {
 img.valorimg {
     width: 85%;
 }
+
 .mision-vision {
     display: flex;
     padding-block-start: 37px;
     column-gap: 53px;
     justify-content: center;
 }
+
 .mision {
     width: 440px;
     height: 240px;
@@ -225,10 +230,11 @@ img.expertos {
 
 @media (min-width: 1400px) {
     .container-acercade .carousel-caption {
-        
+
         left: 11% !important;
         width: 80% !important;
     }
+
     .container-acercade .text-portada h3 {
         font-size: 58px !important;
     }
@@ -266,6 +272,7 @@ img.expertos {
         padding: 0 17px;
     }
 
+
     .container-acercade .container-mision-vision {
         margin: 0 !important;
         padding: 0 !important;
@@ -284,13 +291,45 @@ img.expertos {
     }
 
     .container-acercade .carousel-caption {
-        -webkit-padding-before: 50px!important;
-        left: 11%!important;
-        padding-block-start: 50px!important;
-        padding-left: 0!important;
-        position: static!important;
-        width: 100%!important;
+        -webkit-padding-before: 50px !important;
+        left: 11% !important;
+        padding-block-start: 50px !important;
+        padding-left: 0 !important;
+        position: static !important;
+        width: 100% !important;
         display: flex;
+        align-items: center;
+    }
+
+    span.nomobile {
+        padding-block-start: 340px;
+        text-align: center;
+    }
+
+    h3.nomobile {
+        text-align: center;
+    }
+
+    .ofertas {
+        display: flex;
+        flex-direction: column;
+        margin-block-start: 247px;
+        gap: 30px;
+    }
+
+    .oferta1 {
+        width: 80%;
+    }
+
+    .oferta2 {
+        width: 80%;
+    }
+
+    .ofertas {
+        display: flex;
+        flex-direction: column;
+        margin-block-start: 25px;
+        gap: 30px;
         align-items: center;
     }
 
@@ -313,20 +352,25 @@ img.expertos {
         width: 80%;
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
+
     .Fortalezas a {
         font-size: 26px;
     }
+
     .expertos-tecnologias {
         flex-direction: column;
         align-items: center;
     }
+
     img.expertos {
         width: 80%;
     }
+
     .Fortalezas a {
         text-align: center;
         font-size: 25px !important;
     }
+
     .text-tecnologias {
         width: 280px !important;
         height: 300px;
@@ -335,8 +379,6 @@ img.expertos {
         flex-direction: column;
         gap: 6px;
     }
-    .Fortalezas {
-        display: none;
-    }
-    
+
+
 }

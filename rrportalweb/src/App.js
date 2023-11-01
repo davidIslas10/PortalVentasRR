@@ -14,6 +14,7 @@ import { PowerApps } from "./components/PowerApps";
 import { HeadHunter } from "./components/HeadHunter";
 import { UxUi } from "./components/UxUi";
 import { Contacto } from "./components/Contacto";
+import { Chatbot } from "./components/Chatbot";
 
 
 const router = createBrowserRouter([
@@ -81,6 +82,7 @@ function App() {
     <div className={headerSmall > 10 ? 'small App':'big App'} onScroll={handleScroll}>
       <RouterProvider router={router} 
       />
+      <Chatbot/>
     </div>
   );
 }

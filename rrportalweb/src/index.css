@@ -393,6 +393,12 @@ img.logo {
   color: #b50a0c;
 }
 
+.rsc {
+  position: absolute;
+  bottom: 8px;
+  right: 50px;
+}
+
 .images-services img {
   width: 475px;
   height: 316px;

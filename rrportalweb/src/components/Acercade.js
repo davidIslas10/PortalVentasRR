@@ -10,12 +10,14 @@ import valorimgm from '../images/img/valor-img-m.PNG';
 import expertos from '../images/img/expertos.PNG';
 import acercade from '../images/img/acercade.png';
 import "../CSS/acercade.css"
+import { Chatbot } from './Chatbot';
 
 export const Acercade = () => {
     return (
         <div className='container-acercade'>
             <Navbar />
             <div>
+                <Chatbot/>
                 <div className="container-banners">
                     <div class="carousel-caption">
                         <div className="text-portada">
@@ -91,7 +93,7 @@ export const Acercade = () => {
                     </div>
 
                 </div>
-                <span>Nuestra oferta parte siempre de dos variables importantes:</span>
+                <span className='nomobile'>Nuestra oferta parte siempre de dos variables importantes:</span>
                 <div className='ofertas'>
                     <div className='oferta1'>
                         <h1>Análisis y conocimiento de sus procesos recomendando mejores
@@ -104,7 +106,7 @@ export const Acercade = () => {
                         </h1>
                     </div>
                 </div>
-                <h3>El mejor equipo a su disposición</h3>
+                <h3 className='nomobile'>El mejor equipo a su disposición</h3>
             </div>
             <Footer />
         </div>

@@ -10,6 +10,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import triangulo from '../images/img/triangulo.png';
 import Carrusel from './Carrusel'
+import "../CSS/HeadHunter.css"
 
 export const HeadHunter = () => {
     return (
@@ -61,7 +62,7 @@ export const HeadHunter = () => {
             <div className='contactanos'>
                 <span>100% de <strong>nuestros clientes</strong> se quedan con nosotros
                     después del primer proyecto</span>
-                <button ><a href="https://wa.me/5525386986">Contáctanos Ahora!</a></button>
+                <button ><a href="https://wa.me/5525386986">¡Contáctanos Ahora!</a></button>
 
             </div>
             <Footer />

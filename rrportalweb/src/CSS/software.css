@@ -231,11 +231,10 @@ button a {
     }
 
     .banner-text h1 {
-        font-size: 12px;
-        color: black;
+        color: #000;
+        font-size: 13px;
+        padding: 0px 24px !important;
         width: 100%;
-        text-align: center;
-        padding: 0 10px;
     }
 
     .body-desarrollo {
