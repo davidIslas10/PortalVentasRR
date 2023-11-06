@@ -50,11 +50,11 @@ export const Chatbot = () => {
                 user: true,
                 validator: (value) => {
                   const pattern = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ]+$/;
-                  if (/^[a-zA-ZáéíóúÁÉÍÓÚ\s]*$/.test(value)) {
+                  if (pattern.test(value)) {
                       return true;
                   }
                   else {
-                      return 'Ingresa un nombre valido';
+                      return 'Ingresa un nombre valido y sin espacios';
                   }
               },
                 trigger: '3',
