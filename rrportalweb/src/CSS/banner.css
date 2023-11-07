@@ -20,7 +20,7 @@ img.img1 {
     padding-block-start: 0px !important;
     padding-block-end: 0 !important;
     width: 100% !important;
-    height: 130% !important;
+    height: 100% !important;
     text-align: inherit !important;
     display: flex;
     gap: 0;
@@ -30,6 +30,7 @@ img.img1 {
     left: 13% !important;
     align-items: center;
 }
+
 .text-portada p {
     color: #2e2e2e;
     font-size: 18px;

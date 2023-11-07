@@ -12,6 +12,10 @@
     padding: 0 !important;
     margin: 0 !important;
 }
+.container-acercade .text-portada {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 .container-acercade .container-banners {
     height: 77vh;
@@ -203,11 +207,11 @@ img.valorimg {
 }
 
 .Fortalezas span {
-    font-size: 19px;
-    color: #c21f1f;
-    font-weight: 800;
+    color: #243E69 !important;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    padding: 4% 0;
 }
-
 .oferta1 {
     width: 400px;
     height: 100px;
@@ -328,17 +332,18 @@ dt:target+dd {
 
 dt:nth-of-type(1),
 dd:nth-of-type(1) {
-    background: hotpink;
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
 }
 
 dt:nth-of-type(2),
 dd:nth-of-type(2) {
-    background: gold;
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
 }
 
 dt:nth-of-type(3),
 dd:nth-of-type(3) {
-    background: tomato;
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
+
 }
 
 dt {
@@ -362,12 +367,14 @@ dt {
 
 dt:nth-of-type(4),
 dd:nth-of-type(4) {
-    background: lightgreen;
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
+
 }
 
 dt:nth-of-type(5),
 dd:nth-of-type(5) {
-    background: skyblue;
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
+
 }
 
 @media (min-width: 640px) {
@@ -560,6 +567,26 @@ dd:nth-of-type(5) {
         flex-direction: column;
         gap: 6px;
     }
-
+    .Fortalezas span {
+        color: #243E69 !important;
+        font-size: 27px !important;
+        font-weight: 700 !important;
+        padding: 4% 0;
+    }
+    
+    .Fortalezas a {
+        text-align: center;
+        font-size: 17px !important;
+    }
+    dd p {
+        color: #223e69;
+    }
+    .flip-card {
+        background-color: transparent;
+        width: 80%;
+        height: 234px;
+        perspective: 1000px;
+        font-family: sans-serif;
+    }
 
 }

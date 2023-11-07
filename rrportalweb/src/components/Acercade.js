@@ -104,7 +104,7 @@ export const Acercade = () => {
                         <a href="#dd-3">Expertos en sistemas ERPs</a>
                     </dt>
                     <dd>
-                        <span>Consultores expertos certificados en los principales sistemas ERPs del mercado SAP, OREACLE, JD EDWARDS, hemos trabajado en el proceso de levantamiento de información, moldeado, implementación de mejores prácticas, rediseño de procesos en todos los módulos</span>
+                        <p>Consultores expertos certificados en los principales sistemas ERPs del mercado SAP, OREACLE, JD EDWARDS, hemos trabajado en el proceso de levantamiento de información, moldeado, implementación de mejores prácticas, rediseño de procesos en todos los módulos</p>
                     </dd>
                     <dt id="dd-4">
                         <a href="#dd-4">Expertos en tecnologias y proyectos</a>
