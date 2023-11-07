@@ -4,7 +4,7 @@ import microsfot from "../images/img/Microsoft_logo.png"
 import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
-import Erps from "../images/img/Head_hunter.webp"
+import Erps from "../images/img/Head_hunter.png"
 import Erpm from "../images/img/head hunter.jpg"
 import Navbar from './Navbar'
 import Footer from './Footer'

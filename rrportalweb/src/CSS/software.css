@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: stretch;
     align-content: center;
-    padding-left: 30%;
+    padding-left: 20%;
     gap: 15px;
 }
 .banner-text h1 {
@@ -48,6 +48,7 @@ img.img-ds {
     justify-content: center;
     gap: 65px;
     padding-block-end: 30px;
+    padding-block-start: 40px;
 }
 img.desarrollo_body {
     width: 60%;
@@ -58,7 +59,7 @@ img.desarrollo_m {
 .banner-desarrollo {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     padding-block-start: 3%;
 }
 

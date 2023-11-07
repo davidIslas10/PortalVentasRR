@@ -5,7 +5,7 @@ import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
 import Carrusel from './Carrusel'
-import data_portada from "../images/img/DataS.webp"
+import data_portada from "../images/img/DataS.png"
 import desarrollo_m from "../images/img/data_cientist.jpg"
 
 export const DataScientist = () => {

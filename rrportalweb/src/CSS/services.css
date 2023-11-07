@@ -107,8 +107,8 @@ img.img-carrusel {
 }
 
 .services h1 {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 700;
   width: 781px;
 }
 
@@ -141,17 +141,20 @@ img.img-carrusel {
 .container-services h2 {
   margin-block-start: 25px;
   color: #78797b;
-  font-size: 14px;
-  width: 901px;
+  font-size: 18px;
+  width: 100% !important;
   text-align: center;
+  padding: 0 10%;
 }
-
 button.sc-bgqQcB {
   color: #bdbdbd !important;
   background: none !important;
   border-radius: 0 !important;
   border: none !important;
   box-shadow: none !important;
+}
+figure.icon-cards.mt-7 {
+  margin: 20px 0;
 }
 
 .capa {

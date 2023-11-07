@@ -4,7 +4,7 @@ import Footer from './Footer'
 import uno from "../images/img/1.png"
 import dos from "../images/img/2.png"
 import tres from "../images/img/3.png"
-import Erps from "../images/img/Erp_D.webp"
+import Erps from "../images/img/Erp_D.png"
 import Erpm from "../images/img/erp.jpg"
 import Carrusel from './Carrusel'
 import "../CSS/software.css"
