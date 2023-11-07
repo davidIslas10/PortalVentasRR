@@ -33,8 +33,7 @@ html, body {
   ::-webkit-scrollbar:window-inactive {
     display: none;
   }
-  ::-webkit-scrollbar:corner-present  {
-   }
+
    ::-webkit-scrollbar-track-piece {
     background-clip: content-box;
     background-color: #a9aaac;

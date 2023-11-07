@@ -26,6 +26,7 @@ const Service = () => {
   return (
     <div className="container-services">
       <img src={triangulo} class="triangulo" />
+      <h3>We Keep great ideas alive!</h3>
       <div className="services">
         <a> ——— SERVICIOS ———</a>
         <h1>Nos mostramos como una empresa abierta a las criticas y al cambio constructivo trabajando de la mano con nuestros socios comerciales</h1>

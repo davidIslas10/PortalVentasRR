@@ -123,6 +123,7 @@ body {
     BACKGROUND: #f4f4f4;
     overflow-y: auto;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 nav.navbar {
