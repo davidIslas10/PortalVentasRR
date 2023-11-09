@@ -1,21 +1,26 @@
-
 .container-acercade .carousel-caption {
     left: 10% !important;
-    width: 100% !important;
+    width: 90% !important;
     display: flex;
     justify-content: center;
-
 }
+
 .triangulo-banner {
-    width: 85%;
+    width: 88%;
     display: flex;
     justify-content: center;
     padding: 0 !important;
     margin: 0 !important;
 }
+.container-acercade .text-portada {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .container-acercade .container-banners {
     height: 77vh;
 }
+
 .container-acercade .text-portada h1 {
     text-align: justify;
 }
@@ -29,13 +34,16 @@
 .container-acercade .carousel-caption p {
     padding: 10px 0px;
 }
+
 img.valorimgm {
     display: none;
 }
+
 .container-mision-vision {
     display: flex;
     flex-direction: column;
     padding-left: 11%;
+    background-attachment: #fcf8f8eb;
 }
 
 
@@ -50,12 +58,74 @@ span.valores {
 img.valorimg {
     width: 85%;
 }
+
 .mision-vision {
     display: flex;
     padding-block-start: 37px;
     column-gap: 53px;
     justify-content: center;
 }
+
+/* Mision y vision */
+.flip-card {
+    background-color: transparent;
+    width: 383px;
+    height: 234px;
+    perspective: 1000px;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 3.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+.flip-card-back p {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 1px solid #223e69;
+}
+
+.flip-card-front {
+    background: linear-gradient(120deg, #223e69 60%, rgb(34 62 105 / 75%) 88%, rgb(34 62 105) 40%, rgb(34 62 105) 48%);
+    color: white;
+}
+
+
+.flip-card-back {
+    background: linear-gradient(120deg, #223e69 60%, rgb(34 62 105 / 75%) 88%, rgb(34 62 105) 40%, rgb(34 62 105) 48%);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/* ///// */
 .mision {
     width: 440px;
     height: 240px;
@@ -117,6 +187,11 @@ img.valorimg {
 .vision-body span {
     font-size: 14px !important;
 }
+.Fortalezas span {
+    font-size: 40px;
+    color: #223e69;
+    font-weight: 800;
+}
 
 .Fortalezas {
     display: flex;
@@ -132,11 +207,11 @@ img.valorimg {
 }
 
 .Fortalezas span {
-    font-size: 19px;
-    color: #c21f1f;
-    font-weight: 800;
+    color: #243E69 !important;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    padding: 4% 0;
 }
-
 .oferta1 {
     width: 400px;
     height: 100px;
@@ -181,22 +256,22 @@ img.valorimg {
 }
 
 img.expertos {
-    width: 608px;
+    width: 550px;
 }
 
 
 .text-tecnologias {
-    width: 387px;
+    width: 407px;
     height: 300px;
     text-align: justify;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 6px;
 }
 
 .expertos-tecnologias {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 25px 0px;
 }
 
@@ -214,7 +289,6 @@ img.expertos {
     padding: 0;
 }
 
-
 .text-tecnologias span {
     font-size: 14px;
     text-align: justify;
@@ -222,12 +296,133 @@ img.expertos {
     color: #747474;
 }
 
+/* fortalezas */
+dl {
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+    padding: 4% 0;
+}
+
+dt a {
+    color: black;
+    display: block;
+    padding: var(--padding);
+    text-align: center;
+}
+
+dd {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    height: 0;
+    max-height: 0%;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+    width: 100%;
+}
+
+dt:target+dd {
+    height: 100%;
+    max-height: 100%;
+    overflow: visible;
+    padding: 0 var(--padding) var(--padding) var(--padding);
+}
+
+dt:nth-of-type(1),
+dd:nth-of-type(1) {
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
+}
+
+dt:nth-of-type(2),
+dd:nth-of-type(2) {
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
+}
+
+dt:nth-of-type(3),
+dd:nth-of-type(3) {
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
+
+}
+
+dt {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Fortalezas a {
+    font-size: 16px !important;
+    text-align: center;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #223e69;
+}
+
+dt:nth-of-type(4),
+dd:nth-of-type(4) {
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
+
+}
+
+dt:nth-of-type(5),
+dd:nth-of-type(5) {
+    background: linear-gradient(to right, #dcdddf 0%,#ffffff 100%);
+
+}
+
+@media (min-width: 640px) {
+    dl {
+        display: grid;
+        grid-template-areas:
+            "tab-1 tab-2 tab-3 tab-4"
+            "panel panel panel panel";
+        grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+        grid-template-rows: 3rem 1fr;
+        height: 17rem;
+        padding: 0 4%;
+    }
+    
+
+    dd {
+        grid-area: panel;
+        z-index: 9;
+    }
+
+    dd:first-of-type, dt:target+dd {
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        height: 100%;
+        min-height: 15rem;
+        padding: var(--padding);
+        transition: none !important;
+        z-index: 99;
+        background: linear-gradient(120deg, #223e69 60%, rgb(34 62 105 / 75%) 88%, rgb(34 62 105) 40%, rgb(34 62 105) 48%);
+        color: white;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+
+/* fortalezas */
+
+
 @media (min-width: 1400px) {
     .container-acercade .carousel-caption {
-        
+
         left: 11% !important;
         width: 80% !important;
     }
+
     .container-acercade .text-portada h3 {
         font-size: 58px !important;
     }
@@ -265,6 +460,7 @@ img.expertos {
         padding: 0 17px;
     }
 
+
     .container-acercade .container-mision-vision {
         margin: 0 !important;
         padding: 0 !important;
@@ -283,11 +479,46 @@ img.expertos {
     }
 
     .container-acercade .carousel-caption {
-        padding-block-start: 50px !important;
+        -webkit-padding-before: 50px !important;
         left: 11% !important;
-        width: 100% !important;
-        position: static !important;
+        padding-block-start: 50px !important;
         padding-left: 0 !important;
+        position: static !important;
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+    }
+
+    span.nomobile {
+        padding-block-start: 340px;
+        text-align: center;
+    }
+
+    h3.nomobile {
+        text-align: center;
+    }
+
+    .ofertas {
+        display: flex;
+        flex-direction: column;
+        margin-block-start: 247px;
+        gap: 30px;
+    }
+
+    .oferta1 {
+        width: 80%;
+    }
+
+    .oferta2 {
+        width: 80%;
+    }
+
+    .ofertas {
+        display: flex;
+        flex-direction: column;
+        margin-block-start: 25px;
+        gap: 30px;
+        align-items: center;
     }
 
     .mision-vision {
@@ -309,20 +540,25 @@ img.expertos {
         width: 80%;
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
+
     .Fortalezas a {
         font-size: 26px;
     }
+
     .expertos-tecnologias {
         flex-direction: column;
         align-items: center;
     }
+
     img.expertos {
         width: 80%;
     }
+
     .Fortalezas a {
         text-align: center;
         font-size: 25px !important;
     }
+
     .text-tecnologias {
         width: 280px !important;
         height: 300px;
@@ -331,8 +567,26 @@ img.expertos {
         flex-direction: column;
         gap: 6px;
     }
-    .Fortalezas {
-        display: none;
+    .Fortalezas span {
+        color: #243E69 !important;
+        font-size: 27px !important;
+        font-weight: 700 !important;
+        padding: 4% 0;
     }
     
+    .Fortalezas a {
+        text-align: center;
+        font-size: 17px !important;
+    }
+    dd p {
+        color: #223e69;
+    }
+    .flip-card {
+        background-color: transparent;
+        width: 80%;
+        height: 234px;
+        perspective: 1000px;
+        font-family: sans-serif;
+    }
+
 }

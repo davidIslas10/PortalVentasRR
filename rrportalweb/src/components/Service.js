@@ -26,6 +26,7 @@ const Service = () => {
   return (
     <div className="container-services">
       <img src={triangulo} class="triangulo" />
+      <h3>We Keep great ideas alive!</h3>
       <div className="services">
         <a> ——— SERVICIOS ———</a>
         <h1>Nos mostramos como una empresa abierta a las criticas y al cambio constructivo trabajando de la mano con nuestros socios comerciales</h1>
@@ -34,32 +35,46 @@ const Service = () => {
       <figure class="icon-cards mt-7">
         <div class="icon-cards__content">
           <div class="icon-cards__item d-flex align-items-center justify-content-center">
-            <div className="shadow"><span>UX-UI</span></div>
-            <img className="img-carrusel" src={uxui} />
+            <a href="/UxUi">
+              <div className="shadow"><span>UX-UI</span></div>
+              <img className="img-carrusel" src={uxui} />
+            </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">
-            <div className="shadow"><span>ERP Services</span></div>
-            <img className="img-carrusel" src={erp} />
+            <a href="/ERP">
+              <div className="shadow"><span>ERP Services</span></div>
+              <img className="img-carrusel" src={erp} />
+            </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">
+            <a href="/Power-Apps">
             <div className="shadow"><span>Power Apps</span></div>
             <img className="img-carrusel" src={power} />
+            </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">
+            <a href="/DataScientist">
             <div className="shadow"><span>Data Scientist</span></div>
             <img className="img-carrusel" src={data} />
+            </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">
-            <div className="shadow"><span>Head Hunter</span></div>
-            <img className="img-carrusel" src={hunter} />
+            <a href="/Head-Hunter">
+              <div className="shadow"><span>Head Hunter</span></div>
+              <img className="img-carrusel-hunter" src={hunter} />
+            </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">\
-            <div className="shadow"><span>Desarrollo de Software</span></div>
-            <img className="img-carrusel" src={desarrollo} />
+            <a href="/Desarrollo-software">
+              <div className="shadow"><span>Desarrollo de Software</span></div>
+              <img className="img-carrusel" src={desarrollo} />
+            </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">
-            <div className="shadow"><span>Project Management</span></div>
-            <img className="img-carrusel" src={project} />
+            <a href="/Project-Management">
+              <div className="shadow"><span>Project Management</span></div>
+              <img className="img-carrusel" src={project} />
+            </a>
           </div>
         </div>
       </figure>

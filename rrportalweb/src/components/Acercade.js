@@ -9,13 +9,16 @@ import valorimg from '../images/img/valor-img.PNG';
 import valorimgm from '../images/img/valor-img-m.PNG';
 import expertos from '../images/img/expertos.PNG';
 import acercade from '../images/img/acercade.png';
+import Nav from 'react-bootstrap/Nav';
 import "../CSS/acercade.css"
+
 
 export const Acercade = () => {
     return (
         <div className='container-acercade'>
             <Navbar />
             <div>
+                
                 <div className="container-banners">
                     <div class="carousel-caption">
                         <div className="text-portada">
@@ -48,63 +51,69 @@ export const Acercade = () => {
                 <img src={valorimgm} class="valorimgm" />
             </div>
             <div className='mision-vision'>
-                <div className='mision'>
-                    <div className='mision-header'>
-                        <span>Misión</span>
-                    </div>
-                    <div className='mision-body'>
-                        <span>
-                            Nos proponemos llegar ser una empresa líder en consultoría en
-                            Tecnología e Información. Brindando soluciones tecnológicas integrales a
-                            todo nivel empresarial, innovando constantemente nuestros productos y
-                            servicios, de tal modo que tomamos los retos de negocio como si fueran
-                            propios, para maximizar la utilidad y reducir costos.
-                        </span>
-                    </div>
-                </div>
-                <div className='vision'>
-                    <div className='vision-header'>
-                        <span>Visión</span>
-                    </div>
-                    <div className='vision-body'>
-                        <span>
-                            Desarrollar soluciones tecnológicas empresariales que generen valor a los
-                            procesos de negocios con personal altamente calificado y comprometidos
-                            con el bienestar de la sociedad.
-                        </span>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Misión</p>
+                            <p>Hover Me</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>  Nos proponemos llegar ser una empresa líder en consultoría en
+                                Tecnología e Información. Brindando soluciones tecnológicas integrales a
+                                todo nivel empresarial, innovando constantemente nuestros productos y
+                                servicios, de tal modo que tomamos los retos de negocio como si fueran
+                                propios, para maximizar la utilidad y reducir costos.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className='Fortalezas'>
-                <a> ——— FORTALEZAS ———</a>
-                <div className='expertos-tecnologias'>
-                    <img src={expertos} class="expertos" />
-                    <div className='text-tecnologias'>
-                        <h3>Conocimiento del negocio</h3>
-                        <span>Nuestros consultores han trabajado del lado del negocio conociendo los procesos financieros de una empresa</span>
-                        <h3>Conocimiento Fiscal</h3>
-                        <span>Somos expertos en la localización fiscal de los principales países de Latinoamerica: Colombia, Perú, Chile, Brasil, Argentina</span>
-                        <h3>Expertos en sistemas ERPs</h3>
-                        <span>Consultores expertos certificados en los principales sistemas ERPs del mercado SAP, OREACLE, JD EDWARDS, hemos trabajado en el proceso de levantamiento de información, moldeado, implementación de mejores prácticas, rediseño de procesos en todos los módulos</span>
-                        <h3>Expertos en tecnologias y proyectos</h3>
-                        <span>Experiencia en el desarrollo de software, certificaciones en diferentes metodologías y lenguajes de programación. Project Manager con certificaciones y conocimiento de metodologías de gestión de proyectos y marcos de agilidad</span>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Visión</p>
+                            <p>Hover Me</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>  Desarrollar soluciones tecnológicas empresariales que generen valor a los
+                                procesos de negocios con personal altamente calificado y comprometidos
+                                con el bienestar de la sociedad.
+                            </p>
+                        </div>
                     </div>
+                </div>
 
-                </div>
-                <span>Nuestra oferta parte siempre de dos variables importantes:</span>
-                <div className='ofertas'>
-                    <div className='oferta1'>
-                        <h1>Análisis y conocimiento de sus procesos recomendando mejores
-                            prácticas o diseñando herramientas a su medida.
-                        </h1>
-                    </div>
-                    <div className='oferta2'>
-                        <h1>Capacitación de su equipo de trabajo para entender el proceso y
-                            su interacción con el sistema.
-                        </h1>
-                    </div>
-                </div>
-                <h3>El mejor equipo a su disposición</h3>
+            </div>
+
+            <div className='Fortalezas'>
+                <span> ——— FORTALEZAS ———</span>
+                <dl>
+                    <dt id="dd-1">
+                        <a href="#dd-1">Conocimiento del negocio</a>
+                    </dt>
+                    <dd>
+                        <p>Nuestros consultores han trabajado del lado del negocio conociendo los procesos financieros de una empresa</p>
+                    </dd>
+                    <dt id="dd-2">
+                        <a href="#dd-2">Conocimiento Fiscal</a>
+                    </dt>
+                    <dd>
+                        <p>Somos expertos en la localización fiscal de los principales países de Latinoamerica: Colombia, Perú, Chile, Brasil, Argentina</p>
+                    </dd>
+                    <dt id="dd-3">
+                        <a href="#dd-3">Expertos en sistemas ERPs</a>
+                    </dt>
+                    <dd>
+                        <p>Consultores expertos certificados en los principales sistemas ERPs del mercado SAP, OREACLE, JD EDWARDS, hemos trabajado en el proceso de levantamiento de información, moldeado, implementación de mejores prácticas, rediseño de procesos en todos los módulos</p>
+                    </dd>
+                    <dt id="dd-4">
+                        <a href="#dd-4">Expertos en tecnologias y proyectos</a>
+                    </dt>
+                    <dd>
+                        <p>Experiencia en el desarrollo de software, certificaciones en diferentes metodologías y lenguajes de programación. Project Manager con certificaciones y conocimiento de metodologías de gestión de proyectos y marcos de agilidad</p>
+                    </dd>
+                </dl>
+
+                <h3 className='nomobile'>El mejor equipo a su disposición</h3>
             </div>
             <Footer />
         </div>
