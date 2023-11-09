@@ -47,18 +47,22 @@ const Service = () => {
             </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">
-            <a href="/Power-Apps"></a>
+            <a href="/Power-Apps">
             <div className="shadow"><span>Power Apps</span></div>
             <img className="img-carrusel" src={power} />
+            </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">
-            <a href="/DataScientist"></a>
+            <a href="/DataScientist">
             <div className="shadow"><span>Data Scientist</span></div>
             <img className="img-carrusel" src={data} />
+            </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">
+            <a href="/Head-Hunter">
               <div className="shadow"><span>Head Hunter</span></div>
-              <img className="img-carrusel" src={hunter} />
+              <img className="img-carrusel-hunter" src={hunter} />
+            </a>
           </div>
           <div class="icon-cards__item d-flex align-items-center justify-content-center">\
             <a href="/Desarrollo-software">

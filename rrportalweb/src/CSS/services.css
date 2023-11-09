@@ -21,9 +21,14 @@
 }
 
 .icon-cards__item:nth-child(6) .shadow {
-  width: 98% !important;
+  width: 100% !important;
 }
 
+
+img.img-carrusel-hunter {
+  width: 380px !important;
+  height: 250px !important;
+}
 span.text-clientes {
   position: absolute;
   width: 67%;
