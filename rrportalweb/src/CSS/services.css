@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: #fcf8f8eb;
 }
 
 
@@ -20,9 +21,14 @@
 }
 
 .icon-cards__item:nth-child(6) .shadow {
-  width: 98% !important;
+  width: 100% !important;
 }
 
+
+img.img-carrusel-hunter {
+  width: 380px !important;
+  height: 250px !important;
+}
 span.text-clientes {
   position: absolute;
   width: 67%;
@@ -146,6 +152,7 @@ img.img-carrusel {
   text-align: center;
   padding: 0 10%;
 }
+
 button.sc-bgqQcB {
   color: #bdbdbd !important;
   background: none !important;
@@ -153,6 +160,7 @@ button.sc-bgqQcB {
   border: none !important;
   box-shadow: none !important;
 }
+
 figure.icon-cards.mt-7 {
   margin: 20px 0;
 }
@@ -313,24 +321,31 @@ span.icon.icon-rimsa {
   0% {
     transform: translateZ(-35vw) rotateY(0deg);
   }
+
   14.2857% {
     transform: translateZ(-35vw) rotateY(60deg);
   }
+
   28.5714% {
     transform: translateZ(-35vw) rotateY(120deg);
   }
+
   42.8571% {
     transform: translateZ(-35vw) rotateY(180deg);
   }
+
   57.1428% {
     transform: translateZ(-35vw) rotateY(240deg);
   }
+
   71.4285% {
     transform: translateZ(-35vw) rotateY(300deg);
   }
+
   85.7142% {
     transform: translateZ(-35vw) rotateY(360deg);
   }
+
   100% {
     transform: translateZ(-35vw) rotateY(360deg);
   }
@@ -368,12 +383,15 @@ span.icon.icon-iws {
   }
 
   .services h1 {
+    -webkit-padding-after: 15px;
     color: #223e69;
     font-size: 18px;
     font-weight: 700;
-    width: 280px;
-    text-align: initial;
     padding-block-end: 15px;
+    text-align: left;
+    text-align: initial;
+    width: 280px;
+    margin-left: -50px;
   }
 
   .clientes a {
@@ -387,14 +405,20 @@ span.icon.icon-iws {
     padding: 30px !important;
   }
 
+  .icon-cards__item.d-flex.align-items-center.justify-content-center img {
+    height: 125px;
+  }
+
   .container-services h2 {
     -webkit-margin-before: 25px;
+    -webkit-margin-before: 0;
     color: #78797b;
     font-size: 14px;
-    margin-block-start: 0px;
+    line-height: 1.5 !important;
+    margin-block-start: 0;
     text-align: inherit;
     width: 80% !important;
-    line-height: 1.5 !important;
+    padding: 0;
   }
 
   .carousel-caption {
