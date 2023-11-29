@@ -68,7 +68,7 @@ function navresp({ open }) {
             </Accordion>
           </a>
           {/* <a href="#">Trascender</a> */}
-          <a href="#">Contacto</a>
+          {/* <a href="#">Contacto</a> */}
         </div>
         <img src={LogoMobile} class="logomobile" />
         <div className="redes-mobile">

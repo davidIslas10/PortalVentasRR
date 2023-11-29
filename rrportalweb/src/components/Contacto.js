@@ -31,7 +31,7 @@ export const Contacto = () => {
             <div className='text-Contacto'>
                 <span>100% de <strong>nuestros clientes</strong> se quedan con nosotros después del primer proyecto</span>
                 <div className="down">
-                    <a href="tel:+525525386986"><FaPhone />+52 (55) 2538 6986</a>
+                    <a href="tel:+525651058807"><FaPhone />+52 (56) 5105 8807</a>
                     <a href="mailto:admin@itconsultingrr.com"><FiMail /> admin@itconsultingrr.com</a>
                 </div>
             </div>

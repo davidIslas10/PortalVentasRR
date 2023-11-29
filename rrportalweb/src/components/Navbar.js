@@ -69,21 +69,21 @@ const Navbar = () => {
                   </Dropdown.Menu>
                 </Dropdown>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a class="nav-link" href="/contact">
                   {t("banner.navbar.careers")}
                 </a>
-              </li>
+              </li> */}
               {/* <li class="nav-item">
                 <a class="nav-link" href="#">
                   Trascender
                 </a>
               </li> */}
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a class="nav-link" href="contact">
                   Contacto
                 </a>
-              </li>
+              </li> */}
               <li> <img src={flag_usa} class="flagusa" /></li>
               <li class="lenguage">
 

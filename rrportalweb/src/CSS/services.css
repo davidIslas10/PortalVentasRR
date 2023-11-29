@@ -29,6 +29,7 @@ img.img-carrusel-hunter {
   width: 380px !important;
   height: 250px !important;
 }
+
 span.text-clientes {
   position: absolute;
   width: 67%;
@@ -487,4 +488,12 @@ span.icon.icon-iws {
     font-weight: 500;
   }
 
+
+}
+
+@media only screen and (max-width: 600px) {
+  img.img-carrusel-hunter {
+    width: 100% !important;
+    height: 129px !important;
+  }
 }
